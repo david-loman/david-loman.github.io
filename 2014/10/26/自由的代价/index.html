@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="generator" content="Polymer Starter Kit" />
+        <title>自由的代价 | David Loman</title>
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- Chrome for Android theme color -->
+        <meta name="theme-color" content="#303F9F">
+        <!-- Web Application Manifest -->
+        <link rel="manifest" href="manifest.json">
+        <!-- Tile color for Win8 -->
+        <meta name="msapplication-TileColor" content="#3372DF">
+        <!-- Add to homescreen for Chrome on Android -->
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="application-name" content="David Loman">
+        <link rel="icon" sizes="192x192" href="">
+        <!-- Add to homescreen for Safari on iOS -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="David Loman">
+        <link rel="apple-touch-icon" href="">
+        <!-- Tile icon for Win8 (144x144) -->
+        <meta name="msapplication-TileImage" content="">
+        <!-- rss -->
+        
+        <link rel="alternative" href="/atom.xml" title="David Loman" type="application/atom+xml">
+        
+        <!-- favicon -->
+        
+        <link rel="icon" href="/favicon.ico">
+        
+        <link rel="stylesheet" href="/css/github-markdown.css" type="text/css">
+        <link rel="stylesheet" href="/css/highlight.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+        <script src="/polymer/webcomponentsjs/webcomponents-lite.js" type="text/javascript"></script>
+        <link rel="import" href="/elements/elements.html">
+    </head>
+
+
+<style is="custom-style">
+
+  paper-scroll-header-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--paper-grey-200, #eee);
+
+    /* background for toolbar when it is at its full size */
+    --paper-scroll-header-panel-full-header: {
+      background-image: url( / );
+    };
+
+    /* background for toolbar when it is condensed */
+    --paper-scroll-header-panel-condensed-header: {
+      /*background-color: var(--paper-deep-orange-500, #ff5722);*/
+      background-color: #3F51B5;
+    };
+  }
+
+
+
+</style>
+
+<body unresolved class="fullbleed layout vertical">
+  <template is="dom-bind" id="app">
+
+    <paper-drawer-panel id="paperDrawerPanel">
+
+       <div drawer>
+	<!-- Drawer Toolbar -->
+	<paper-toolbar class="tall" id="drawerToolbar">
+	  <div class="bottom title">
+	  	<span class="paper-font-title"> David Loman </span>
+	  </div>
+	</paper-toolbar>
+
+	<!-- Drawer Content -->
+	<paper-menu class="list" attr-for-selected="data-route"  on-iron-select="onMenuSelect">
+
+	  
+	    <a href="/">
+	        <iron-icon icon="home"></iron-icon>
+	        <span>Home</span>
+	    </a>
+	  
+	    <a href="/archives">
+	        <iron-icon icon="archive"></iron-icon>
+	        <span>Archives</span>
+	    </a>
+	  
+	    <a href="/about">
+	        <iron-icon icon="info"></iron-icon>
+	        <span>About</span>
+	    </a>
+	  
+	    <a href="/atom.xml">
+	        <iron-icon icon="bookmark"></iron-icon>
+	        <span>RSS</span>
+	    </a>
+	  
+	 
+	</paper-menu>
+</div>
+
+      <paper-header-panel main mode="waterfall-tall">
+
+         <paper-scroll-header-panel condenses>
+
+          <paper-toolbar class="tall" id="mainToolbar">
+
+  <!-- index -->
+  
+  	<paper-icon-button icon="arrow-back" onclick="back(event)"></paper-icon-button>
+  
+
+  <div class="flex"></div>
+  <!-- <paper-icon-button icon="search"></paper-icon-button> -->
+
+  <!-- Application sub title -->
+  <!-- index -->
+  
+	  <div class="bottom title"> 自由的代价 </div>
+  
+  
+</paper-toolbar>
+
+<!-- Main Content -->
+<div class="content">
+
+  <!-- index -->
+  
+    <paper-material class="markdown-body">
+      <p><p>当人们拥抱开源，享受开源为我们世界带来的那些良好的变化时，有些人却深处痛苦之中，它们是应用的开发者，特别是为开源操作系统开发软件的程序员。<br><a id="more"></a></p>
+<h3 id="从Android说起">从Android说起</h3><p>当前的移动互联网操作系统由两个平台把持着，一个Apple的IOS，一个是Google的Android。作为一个Android程序员，我们清楚开放、自由所带来的优势，但是也常常被这种开放与自由所困扰。</p>
+<p>早在21世纪初，人们对手机的看法还仅限与一种比手机更加便捷的通讯工具。然而短短10年的发展，已经使得这种想法变得如此可笑。我获得的第一个手机还是一个彩色的非智能机，那时在这一领域十分有名气的手机制造商是诺基亚，摩托罗拉。在这个时候我们购买手机的关注点几乎在于它的品牌，因为品牌代表了质量，而这时衡量手机质量的可能在于其使用的时间。然而，等我在三年后购买第二台手机时，我发现了一些变化。几乎所有的手机都已经是彩屏的了，如果一个手机无法支持彩屏，那么它不会怎么受欢迎。而人们的关注点已经发生了变化，人们开始关心手机上的非通讯功能，手机开始慢慢变得电脑化。两年左右的时间，我身边的同学几乎都已投生Android中，有些土豪级别的开始换成了IPhone，而我还是使用着两年前的Symbian系统。这一当年秒杀一切的操作系统在此时已经不再更新了。而现在，Android占领了大部分的中低端市场，IPhone继续延续着它的神话。对于微软来说前景有点暗淡，因为WindowPhone并未取得很好的战绩。而推广Symbian系统的诺基亚已经被微软收购。毫无疑问，在过去的几年Android取得了优秀的成绩，战胜了封闭的Symbian。         </p>
+<h3 id="Android的优势">Android的优势</h3><p>Android系统采用了Linux内核，是一个开放的系统。你几乎可以在生活的任何角落找到它的身影，它可以用在手表，手环，电视，可穿戴设备等上，这也是Google一直在推行的。希望通过Android来建造一个更加美好的世界。Android作为一个开源的操作系统，它的优势在于其多样性。你可以找到各种价位的Android手机，你也可以找到各种硬件配置的Android手机。在Andriod的阵营里，你可以有丰富的选择。这也是Android在目前能够与苹果较量的原因。正是这种多样性，为Android带来了许多的使用者。另外Android的应用市场也是相当丰富，其非常低的进入成本使得这一领域有着众多的应用。这一点是IOS无法比拟的（不过质量是另一回事了）。两者共同结合，就是Android目前的优势。然而这样的优势却给开发者与使用者带来了不小的麻烦。</p>
+<h3 id="开发者的困局">开发者的困局</h3><p>如果你想要从事Android开发的话，恐怕你得先想一想我是否有足够的精力来做这一项工作。由于Android的开放性，市场上有各种各样的Android屏幕，当你仅仅是满足自己使用的需求时。你会发现为Android开发应用是一件惬意的事。你可以为你的应用指定屏幕大小，在IDE中查看自己应用所呈现的效果。然而当你要为所有市面上的Android终端开发应用时，你会发现这是一件不大不小的挑战。你的应用可以在某一型号的屏幕上有很好的展现效果，可是当屏幕改变时，它可能变得丑陋无比。虽然Android提供了一套多屏普适的方案。可是这一切看起来还是不太好。      </p>
+<p>目前Android系统的版本已经到达了5.0，然而仍然有一部分的机器还是在3.0以下。所以在为Android开发应用时，我们不可避免的要遇到的问题是向后兼容。所幸，在这一方面Android的支持还是比较好的，否则又是一个大坑了。    </p>
+<p>由于众多厂家的加入，定制Android系统已经成为一种习惯了。在中国，就有许多定制的Android系统，比较有名的有小米的miui，魅族的flyme等，许多厂商也会根据自身情况进行修改。有些修改对于消费者来说是一个不小的方便，然而对于开发者来说，这些修改无疑给我们带来了诸多不便。比如无法获取相应的权限，无法发送提醒等等。</p>
+<h3 id="消费者的问题">消费者的问题</h3><p>这样的开放策略并非对消费者就是全然好的，Android市场的开发，自由特性诱发了诸多的病毒与流氓应用，这些应用都对消费者的信息安全构成了一定的危害。另外，定制的系统通常无法在第一时间更新，这也是另很多消费者不满意的地方。这些都是Android目前不完善的部分。</p>
+<h3 id="总结">总结</h3><p>Android通过它的开发、自由占领了市场，然而却也为消费者与开发者带来了许多不便。我并不认为这样的情况下，我们就不应该提倡开放、自由。而是开放与自由需要一定的限制。希望Google方面能完善这一部分限制。对于Android的未来，个人持乐观态度。目前，苹果坚持着自身的封闭特性，这为苹果带来了高质量的应用，不过也减少了许多用户。微软的WindowPhone错过了当年快速发展的时期，现在想要反超Android还有待时间的考验。此外，Android目前已远远不是一个运行与手机或平板上的操作系统。它同样运行在了智能穿戴，电视等终端上。这是目前Google的优势。所以，如果自身能够在监管上有一定的发力，Android的未来还是很美好的。</p>
+</p>
+    </paper-material>
+	  <paper-material>
+      
+  
+   <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="_posts/自由的代价.md" data-title="自由的代价" data-url="http://davidloman.net/2014/10/26/自由的代价/"></div>
+    <!-- 多说评论框 end -->
+   <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:'david-loman'};
+      (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+      })();
+      </script>
+    <!-- 多说公共JS代码 end -->
+  
+
+
+		</paper-material>
+  
+
+  <!-- pagination -->
+  
+
+  
+<footer>
+	<p>由 <a href="https://hexo.io">hexo</a> 强力驱动 | 搭载 <a href="https://github.com/wayou/hexo-theme-polymer">polymer</a> 主题 </p>
+	<p>&copy;2015 David Loman </p>
+</footer>
+
+<script src="/js/main.js" type="text/javascript"></script>
+
+<!-- 百度统计 -->
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?ce7cd801f1e0b109bf86e2a11e97eb6a";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<!-- 谷歌统计 -->
+
+
+</div>
+
+
+
+
+
+
+        </paper-scroll-header-panel>
+
+      </paper-header-panel>
+
+    </paper-drawer-panel>
+
+  </template>
+
+</body>
+
+</html>

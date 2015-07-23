@@ -1,0 +1,401 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="generator" content="Polymer Starter Kit" />
+        <title>David Loman</title>
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- Chrome for Android theme color -->
+        <meta name="theme-color" content="#303F9F">
+        <!-- Web Application Manifest -->
+        <link rel="manifest" href="manifest.json">
+        <!-- Tile color for Win8 -->
+        <meta name="msapplication-TileColor" content="#3372DF">
+        <!-- Add to homescreen for Chrome on Android -->
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="application-name" content="David Loman">
+        <link rel="icon" sizes="192x192" href="">
+        <!-- Add to homescreen for Safari on iOS -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="David Loman">
+        <link rel="apple-touch-icon" href="">
+        <!-- Tile icon for Win8 (144x144) -->
+        <meta name="msapplication-TileImage" content="">
+        <!-- rss -->
+        
+        <link rel="alternative" href="/atom.xml" title="David Loman" type="application/atom+xml">
+        
+        <!-- favicon -->
+        
+        <link rel="icon" href="/favicon.ico">
+        
+        <link rel="stylesheet" href="/css/github-markdown.css" type="text/css">
+        <link rel="stylesheet" href="/css/highlight.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+        <script src="/polymer/webcomponentsjs/webcomponents-lite.js" type="text/javascript"></script>
+        <link rel="import" href="/elements/elements.html">
+    </head>
+
+
+<style is="custom-style">
+
+  paper-scroll-header-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--paper-grey-200, #eee);
+
+    /* background for toolbar when it is at its full size */
+    --paper-scroll-header-panel-full-header: {
+      background-image: url( / );
+    };
+
+    /* background for toolbar when it is condensed */
+    --paper-scroll-header-panel-condensed-header: {
+      /*background-color: var(--paper-deep-orange-500, #ff5722);*/
+      background-color: #3F51B5;
+    };
+  }
+
+
+
+</style>
+
+<body unresolved class="fullbleed layout vertical">
+  <template is="dom-bind" id="app">
+
+    <paper-drawer-panel id="paperDrawerPanel">
+
+       <div drawer>
+	<!-- Drawer Toolbar -->
+	<paper-toolbar class="tall" id="drawerToolbar">
+	  <div class="bottom title">
+	  	<span class="paper-font-title"> David Loman </span>
+	  </div>
+	</paper-toolbar>
+
+	<!-- Drawer Content -->
+	<paper-menu class="list" attr-for-selected="data-route"  on-iron-select="onMenuSelect">
+
+	  
+	    <a href="/">
+	        <iron-icon icon="home"></iron-icon>
+	        <span>Home</span>
+	    </a>
+	  
+	    <a href="/archives">
+	        <iron-icon icon="archive"></iron-icon>
+	        <span>Archives</span>
+	    </a>
+	  
+	    <a href="/about">
+	        <iron-icon icon="info"></iron-icon>
+	        <span>About</span>
+	    </a>
+	  
+	    <a href="/atom.xml">
+	        <iron-icon icon="bookmark"></iron-icon>
+	        <span>RSS</span>
+	    </a>
+	  
+	 
+	</paper-menu>
+</div>
+
+      <paper-header-panel main mode="waterfall-tall">
+
+         <paper-scroll-header-panel condenses>
+
+          <paper-toolbar class="tall" id="mainToolbar">
+
+  <!-- index -->
+  
+  	<paper-icon-button id="paperToggle" icon="menu" paper-drawer-toggle></paper-icon-button>
+  <!-- not index, show the back button -->
+  
+
+  <div class="flex"></div>
+  <!-- <paper-icon-button icon="search"></paper-icon-button> -->
+
+  <!-- Application sub title -->
+  <!-- index -->
+  
+	  <!-- Application name -->
+	  <!-- <div class="middle paper-font-display2 app-name"> David Loman </div> -->
+	  
+  <!-- archives -->
+  
+  
+</paper-toolbar>
+
+<!-- Main Content -->
+<div class="content">
+
+  <!-- index -->
+  
+		
+			<paper-material >
+
+          <paper-item>
+            <paper-item-body two-line class="index-item-wrapper">
+              <div>
+                <h1>
+                  <a class="post-title" href="/2015/01/24/你好，2015/">你好，2015</a>
+                  <span class="index post-time">1月 24 2015</span>
+                </h1>
+              </div>
+              <div secondary>
+              <div class="markdown-body"><p>2014过去了，我很怀念它。<br></div>
+              
+                  <a class="article-more-link" href="/2015/01/24/你好，2015/"> MORE... </a>
+              
+              </div>
+            </paper-item-body>
+          </paper-item>
+
+			</paper-material>
+		
+			<paper-material >
+
+          <paper-item>
+            <paper-item-body two-line class="index-item-wrapper">
+              <div>
+                <h1>
+                  <a class="post-title" href="/2015/01/24/Ubuntu下如何安装JDK/">Ubuntu下如何安装JDK</a>
+                  <span class="index post-time">1月 24 2015</span>
+                </h1>
+              </div>
+              <div secondary>
+              <div class="markdown-body"><p>最近把系统整残了，不得不重新安装了一遍，然后又把JDK安装了一次，在此分享给大家。<br></div>
+              
+                  <a class="article-more-link" href="/2015/01/24/Ubuntu下如何安装JDK/"> MORE... </a>
+              
+              </div>
+            </paper-item-body>
+          </paper-item>
+
+			</paper-material>
+		
+			<paper-material >
+
+          <paper-item>
+            <paper-item-body two-line class="index-item-wrapper">
+              <div>
+                <h1>
+                  <a class="post-title" href="/2014/12/13/Ubuntu下安装Android-Studio-1-0/">Ubuntu下安装Android Studio 1.0</a>
+                  <span class="index post-time">12月 13 2014</span>
+                </h1>
+              </div>
+              <div secondary>
+              <div class="markdown-body"><p>最近Android Studio更新了，我也把它安装完成。分享分享一下经验。<br></div>
+              
+                  <a class="article-more-link" href="/2014/12/13/Ubuntu下安装Android-Studio-1-0/"> MORE... </a>
+              
+              </div>
+            </paper-item-body>
+          </paper-item>
+
+			</paper-material>
+		
+			<paper-material >
+
+          <paper-item>
+            <paper-item-body two-line class="index-item-wrapper">
+              <div>
+                <h1>
+                  <a class="post-title" href="/2014/12/11/如何成为一个程序员/">如何成为一个程序员</a>
+                  <span class="index post-time">12月 11 2014</span>
+                </h1>
+              </div>
+              <div secondary>
+              <div class="markdown-body"><p>如果你想成为一个程序员，一个软件工程师的话，你应该付出一些努力，也许你对此不是很了解，我仅仅只能从我这些年自己学习，开发中的经验来总结出一些具有参考性的建议。在这里我不会告诉你应该怎么做怎么做，因为我并不了解你，我只能告诉你，这样做是有益的，而且你会从中收获许多。<br></div>
+              
+                  <a class="article-more-link" href="/2014/12/11/如何成为一个程序员/"> MORE... </a>
+              
+              </div>
+            </paper-item-body>
+          </paper-item>
+
+			</paper-material>
+		
+			<paper-material >
+
+          <paper-item>
+            <paper-item-body two-line class="index-item-wrapper">
+              <div>
+                <h1>
+                  <a class="post-title" href="/2014/12/08/我的Ubuntu之旅/">我的Ubuntu之旅</a>
+                  <span class="index post-time">12月 8 2014</span>
+                </h1>
+              </div>
+              <div secondary>
+              <div class="markdown-body"><p>我与Linux的结缘是在13年，那时的我第一次见到了Ubuntu，于是就被这一系统所深深吸引了。这也促使我开始学习与使用Linux。目前使用Linux大概也有一年左右的时间，很多感慨。<br></div>
+              
+                  <a class="article-more-link" href="/2014/12/08/我的Ubuntu之旅/"> MORE... </a>
+              
+              </div>
+            </paper-item-body>
+          </paper-item>
+
+			</paper-material>
+		
+			<paper-material >
+
+          <paper-item>
+            <paper-item-body two-line class="index-item-wrapper">
+              <div>
+                <h1>
+                  <a class="post-title" href="/2014/11/25/Key-Value-漫游/">Key &amp; Value 漫游</a>
+                  <span class="index post-time">11月 25 2014</span>
+                </h1>
+              </div>
+              <div secondary>
+              <div class="markdown-body"><p>编程世界中，你往往会遇到很多名词，它们几乎都有一个特点就是让人不知所云。不过要是仔细仔细琢磨，其实也就很好理解了。<br></div>
+              
+                  <a class="article-more-link" href="/2014/11/25/Key-Value-漫游/"> MORE... </a>
+              
+              </div>
+            </paper-item-body>
+          </paper-item>
+
+			</paper-material>
+		
+			<paper-material >
+
+          <paper-item>
+            <paper-item-body two-line class="index-item-wrapper">
+              <div>
+                <h1>
+                  <a class="post-title" href="/2014/11/25/搭建Ubuntu下的开发环境/">搭建Ubuntu下的开发环境</a>
+                  <span class="index post-time">11月 25 2014</span>
+                </h1>
+              </div>
+              <div secondary>
+              <div class="markdown-body"><p>前几天一直在看如何将Ubuntu下的桌面主题变换成Mac风的，然后就升级了系统，从原来的12.04升为14.04。之后发现现在14.04下的输入法并不好使，bug太多……于是又折腾了一阵。目前还行，还把QQ装上了，所以就介绍介绍如何打造Ubuntu下的编程环境吧。<br></div>
+              
+                  <a class="article-more-link" href="/2014/11/25/搭建Ubuntu下的开发环境/"> MORE... </a>
+              
+              </div>
+            </paper-item-body>
+          </paper-item>
+
+			</paper-material>
+		
+			<paper-material >
+
+          <paper-item>
+            <paper-item-body two-line class="index-item-wrapper">
+              <div>
+                <h1>
+                  <a class="post-title" href="/2014/10/26/自由的代价/">自由的代价</a>
+                  <span class="index post-time">10月 26 2014</span>
+                </h1>
+              </div>
+              <div secondary>
+              <div class="markdown-body"><p>当人们拥抱开源，享受开源为我们世界带来的那些良好的变化时，有些人却深处痛苦之中，它们是应用的开发者，特别是为开源操作系统开发软件的程序员。<br></div>
+              
+                  <a class="article-more-link" href="/2014/10/26/自由的代价/"> MORE... </a>
+              
+              </div>
+            </paper-item-body>
+          </paper-item>
+
+			</paper-material>
+		
+			<paper-material >
+
+          <paper-item>
+            <paper-item-body two-line class="index-item-wrapper">
+              <div>
+                <h1>
+                  <a class="post-title" href="/2014/10/20/开源与闭源/">开源与闭源</a>
+                  <span class="index post-time">10月 20 2014</span>
+                </h1>
+              </div>
+              <div secondary>
+              <div class="markdown-body"><p>最近受到知乎的影响，买了《大教堂与集市》来拜读，发现挺有意思的。所以把自己的点点滴滴思考记录在这里与大家分享。这是第一篇，以后应该还会有后续。因为，确实从书中学到了很多东西，或者说是认识到了之前自己遇见过的问题是怎么一回事。<br></div>
+              
+                  <a class="article-more-link" href="/2014/10/20/开源与闭源/"> MORE... </a>
+              
+              </div>
+            </paper-item-body>
+          </paper-item>
+
+			</paper-material>
+		
+			<paper-material >
+
+          <paper-item>
+            <paper-item-body two-line class="index-item-wrapper">
+              <div>
+                <h1>
+                  <a class="post-title" href="/2014/10/13/搭建便捷的开发环境/">搭建便捷的开发环境</a>
+                  <span class="index post-time">10月 13 2014</span>
+                </h1>
+              </div>
+              <div secondary>
+              <div class="markdown-body"><p>经过几天的摸索，终于让自己的电脑换了一个环境了。在此之前，界面一直是单调的白框黑字。现在几乎把所有的软件都换成黑底了，真是太完美了。连桌面也换了，也是黑色的壁纸，连一个图标都没有。常用的软件就用快捷键来打开，顿时感觉爽爆了。其它的操作写成了批处理，感觉不是一般的舒服。(本文面向Window系统)<br></div>
+              
+                  <a class="article-more-link" href="/2014/10/13/搭建便捷的开发环境/"> MORE... </a>
+              
+              </div>
+            </paper-item-body>
+          </paper-item>
+
+			</paper-material>
+		
+  <!-- archives -->
+  
+
+  <!-- pagination -->
+  
+
+  
+<footer>
+	<p>由 <a href="https://hexo.io">hexo</a> 强力驱动 | 搭载 <a href="https://github.com/wayou/hexo-theme-polymer">polymer</a> 主题 </p>
+	<p>&copy;2015 David Loman </p>
+</footer>
+
+<script src="/js/main.js" type="text/javascript"></script>
+
+<!-- 百度统计 -->
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?ce7cd801f1e0b109bf86e2a11e97eb6a";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<!-- 谷歌统计 -->
+
+
+</div>
+
+
+
+
+
+
+
+        </paper-scroll-header-panel>
+
+      </paper-header-panel>
+
+    </paper-drawer-panel>
+
+  </template>
+
+</body>
+
+</html>

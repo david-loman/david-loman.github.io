@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  
+  <title><![CDATA[David Loman]]></title>
+  <subtitle><![CDATA[地理学人在移动互联网]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://davidloman.net//"/>
+  <updated>2015-07-23T06:48:18.310Z</updated>
+  <id>http://davidloman.net//</id>
+  
+  <author>
+    <name><![CDATA[David Loman]]></name>
+    <email><![CDATA[linxiangpeng92@gmail.com]]></email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[你好，2015]]></title>
+    <link href="http://davidloman.net/2015/01/24/%E4%BD%A0%E5%A5%BD%EF%BC%8C2015/"/>
+    <id>http://davidloman.net/2015/01/24/你好，2015/</id>
+    <published>2015-01-24T11:21:59.000Z</published>
+    <updated>2015-07-23T06:48:18.310Z</updated>
+    <content type="html"><![CDATA[<p>2014过去了，我很怀念它。<br><a id="more"></a></p>
+<h3 id="2014_总结">2014 总结</h3><h4 id="忙碌">忙碌</h4><p>2014年一开始，我的大三也过了一半，即将步入大四。由于种种原因，继续深造读研对我来说是没有可能的事情，所以我也接受了这样的现实，踏踏实实的准备找工作的事。在这个过程中我有幸接触到了知乎由此才能发现这个友爱的群体。大三的寒假还没开始我就找了一个兼职，是一家在我家乡的小公司。然后假期就这样实习了。实习给人的感觉是累，我虽然仅仅只是做一些文档工作还没有编程，可还是觉得累，每天傍晚坐在公交车上回家，都会不自觉的打盹。不过在这家公司里，我学习到很多，关于软件开发，关于团队协作，也有一些商业流程之类的东西。如果没有这段实习之旅，我估计很是一个在学校中迷茫不知方向，有一天过一天的大四学生。<br>3月份开始，各大公司就开始招实习生了。不过那时的我虽然接触Android接触Android开发有半年了，不过除了四大组件之外什么都不知道，而且对于软件开发也是一点经验都没有，然后就是各种被刷了。7月份的时候跑了一趟北京却都吃到了闭门羹。而后好好准备了一下去了上海，又是闭门羹。那时面试我的人直接对我教训了一番。我到现在都很感谢他，因为在此之前的我都是比较懒散的那种类型，不过现在我改变了不少。<br>9月份下旬时候，我回到了学校，不过校招也已经过去一大半了，很遗憾错过了去哪网与携程网的招聘，因为这都是我之前很喜欢的公司。不过还好最终自己还是拿到了其它公司的Offer。本来可以直接去实习的，不过老师突然间把课程的标准变了，所以也就去不了了。所以现在还是很期待自己的实习生活的。</p>
+<h4 id="成长">成长</h4><p>2014是成长的一年。这一年里，我经历了很多的事情，它们都让我获益良多。<br>在2014年以前，我的电脑里一直装着双系统，可是我只用Windows。现在我已经很少用Windows了。我很感谢陈宇老师，大二的时候，他说你来实验室吧，然后我就加入了ACM的阵容中。我也才会有动力发大把大把的时间学习编程。看算法，写程序，找Bug。然后，大三的时候，他又让我去旁听他讲的Linux课程。假如不是这个课程，我真想不出来我是否会和Linux、开源运动等有什么联系。在旁听完他的课程后，我就开始用Linux了，一直装在系统里的Ubuntu终于不是摆设了。而现在，我们寝室也有了一半以上的人去尝试Ubuntu系统了。<br>我在这一年里对于Android有了更多的认识。熟悉了Android的基本功能，而自己也尝试开发了一些好玩的东西。另外，也正是由于自己开发Android的原因，彻底的沦落为谷歌粉了。<br>当然最重要的是找到了组织。在此之前我都是一个人，一个人学习，一个人找实习，一个人查找问题的解决方法……而现在终于可以投入组织的怀抱了，虽然我一向不怎么说话。</p>
+<h4 id="不足">不足</h4><ol>
+<li>对于Android的了解仍然不是很透彻，在多屏幕适应与网络应用方面还是比较陌生，没有什么经验。  </li>
+<li>在人际交往上还需要提高，要克服自己不知如何与女生相处的问题。</li>
+</ol>
+<h3 id="二-_2015_展望">二. 2015 展望</h3><p>2015 开始就要开始实习，然后就是正式工作了。希望自己能够胜任自己的工作，对于未来很憧憬，不过也有点害怕自己不能够胜任工作。希望自己能够继续学习下去，因为自己实在是太弱小了。不知道有没有成为大牛的一天。总之就是憧憬与向往大过于恐惧。</p>
+<ol>
+<li>买买买（Nexus 、 Pro 等）</li>
+<li>熟悉Android的网络应用搭建，多屏幕的适配等问题。</li>
+<li>了解Android Wear的开发过程，如果有可能的话也了解了解Android TV。</li>
+<li>了解苹果开发，作为移动端的开发工程师，这个不能不知道。</li>
+<li>学习新语言，之前不是用C/C++就是Java，应该了解一下脚本语言。（PHP是世界上最好的语言，是吧？）</li>
+<li>熟悉服务器端是如何运行的，以及各种第三方SDK。</li>
+</ol>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>2014过去了，我很怀念它。<br>]]>
+    
+    </summary>
+    
+      <category term="Android" scheme="http://davidloman.net/tags/Android/"/>
+    
+      <category term="Ubuntu" scheme="http://davidloman.net/tags/Ubuntu/"/>
+    
+      <category term="编程" scheme="http://davidloman.net/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+      <category term="杂谈" scheme="http://davidloman.net/categories/%E6%9D%82%E8%B0%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Ubuntu下如何安装JDK]]></title>
+    <link href="http://davidloman.net/2015/01/24/Ubuntu%E4%B8%8B%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85JDK/"/>
+    <id>http://davidloman.net/2015/01/24/Ubuntu下如何安装JDK/</id>
+    <published>2015-01-24T09:32:29.000Z</published>
+    <updated>2015-07-23T06:48:18.310Z</updated>
+    <content type="html"><![CDATA[<p>最近把系统整残了，不得不重新安装了一遍，然后又把JDK安装了一次，在此分享给大家。<br><a id="more"></a></p>
+<h3 id="安装准备">安装准备</h3><p>在你安装JDK之前，你需要下载JDK，你可以从这个网址下载：<a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank" rel="external">JDK1.8</a><br>如果你的系统是32位的选x86，如果是64的选64。选择格式是 *.tar.gz 的包下载。</p>
+<h3 id="安装">安装</h3><p>将下载下来的包解压，可以找到文件，直接右键<em>提取到</em>解压文件，也可以在命令行中通过如下命令解压：<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar xvzf JDK_NAME.tar.gz</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li>JDK_NAME为你下载后文件的前缀。   </li>
+<li>如果在解压的过程中出现问题多半是安装包下载的时候损坏了，重新下载就可以了。</li>
+</ul>
+<p>而后需要把文件放到 /usr 目录下防止意外情况的发生。通过命令行来执行：<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo cp -r MY_JDK /usr/</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li>MY_JDK为你解压后生成的那个文件夹的名称。</li>
+</ul>
+<h3 id="配置JDK">配置JDK</h3><p>安装完JDK后应该配置好其环境变量，这样才能够使用。一般来说需要配置这三个环境变量：PATH ， CLASSPATH ， JAVA_HOME 。<br>可以直接通过命令行来配置：<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo gedit /etc/environment</span><br></pre></td></tr></table></figure></p>
+<p>在文件的PATH中添加： :/usr/jdk1.8.0_31/bin:/usr/jdk1.8.0_31/jre/bin<br>然后<br>添加CLASSPATH与JAVA_HOME。如下：<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">PATH=&#34;/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/jdk1.8.0_31/bin:/usr/jdk1.8.0_31/jre/bin:~/bin&#34;&#10;JAVA_HOME=&#34;/usr/jdk1.8.0_31&#34;&#10;CLASSPATH=&#34;/usr/jdk1.8.0_31/lib:/usr/jdk1.8.0_31/lib/tools.jar&#34;</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li>我把JDK放在了 /usr 目录下。</li>
+</ul>
+<h3 id="检查">检查</h3><p>我们需要把系统重启一下，或者注销账户，然后再检查是否安装完成。    </p>
+<p>可以通过如下命令来检查JDK是否安装好了：<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">javac</span><br></pre></td></tr></table></figure></p>
+<p>如果你执行后会看到关于如何使用javac的信息，就说明 java 已经安装好了。如果提示没有找到javac这个命令就是安装失败。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>最近把系统整残了，不得不重新安装了一遍，然后又把JDK安装了一次，在此分享给大家。<br>]]>
+    
+    </summary>
+    
+      <category term="JDK" scheme="http://davidloman.net/tags/JDK/"/>
+    
+      <category term="Linux" scheme="http://davidloman.net/tags/Linux/"/>
+    
+      <category term="Ubuntu" scheme="http://davidloman.net/tags/Ubuntu/"/>
+    
+      <category term="Ubuntu平台" scheme="http://davidloman.net/categories/Ubuntu%E5%B9%B3%E5%8F%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Ubuntu下安装Android Studio 1.0]]></title>
+    <link href="http://davidloman.net/2014/12/13/Ubuntu%E4%B8%8B%E5%AE%89%E8%A3%85Android-Studio-1-0/"/>
+    <id>http://davidloman.net/2014/12/13/Ubuntu下安装Android-Studio-1-0/</id>
+    <published>2014-12-13T14:54:42.000Z</published>
+    <updated>2015-07-23T06:48:18.310Z</updated>
+    <content type="html"><![CDATA[<p>最近Android Studio更新了，我也把它安装完成。分享分享一下经验。<br><a id="more"></a></p>
+<h2 id="安装前的准备">安装前的准备</h2><p>在安装Android Studio之前，我们需要做一些工作。Android Studio需要 400M的空间，而SDK包需要1G的空间。请确保你的系统内有这么大的空间。同时还需要Java环境。</p>
+<h3 id="Java环境">Java环境</h3><p>Android Studio 1.0 需要JDK7或者以上。所以请确保电脑中的JDK在7以上，可以通过以下命令查看：<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">javac -version</span><br></pre></td></tr></table></figure></p>
+<p>同时，Android Studio需要JAVA_HOME这一环境变量，如果没有的话，请将以下语句添加到 <strong>/etc/profile</strong>文件末尾：<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">export JAVA_HOME=YOU_JAVA_HOME/jdk1.7.0_51</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li>YOU_JAVA_HOME为你电脑上jdk的安装路径</li>
+</ul>
+<h3 id="安装包下载">安装包下载</h3><p>由于Linux的安装包中不包含SDK包，所以你需要下载Android Studio与SDK包。如果你能够翻墙的话，可以通过官网下载：<br><a href="http://developer.android.com/intl/zh-cn/sdk/index.html" target="_blank" rel="external">Android Studio</a><br><a href="http://developer.android.com/intl/zh-cn/sdk/index.html#Other" target="_blank" rel="external">SDK包,选SDK Only</a><br>如果你无法翻墙的话，这个网站能找到相关的资源：<br><a href="http://www.androiddevtools.cn/" target="_blank" rel="external">AndroidDevTools</a> </p>
+<h2 id="安装">安装</h2><p>由于Android Studio与SDK包都是压缩包，所以解压后就可以使用的。</p>
+<h3 id="Android_Studio">Android Studio</h3><p>将下载后的Android Studio压缩包拷贝到你要存放该程序的目录下。解压：<br><img src="http://7sbmzt.com1.z0.glb.clouddn.com/updata_android_studio选区_009.png" alt="解压Android Studio"><br>你会看到多出了一个<em>android-studio</em>文件夹，这样就解压成功了。</p>
+<h3 id="SDK_包">SDK 包</h3><p>将SDK的压缩文件拷贝到刚才解压出来的<em>android-studio</em>目录下，解压：<br><img src="http://7sbmzt.com1.z0.glb.clouddn.com/updata_android_studio选区_010.png" alt="解压SDK包"><br>解压后会出现一个<em>android-sdk-linux</em>文件夹，安装完成。现在<em>android-studio</em>下的目录：<br><img src="http://7sbmzt.com1.z0.glb.clouddn.com/updata_android_studio选区_005.png" alt="目录"></p>
+<h2 id="收尾工作">收尾工作</h2><p>通过<em>android-studio</em>的<em>bin</em>目录下的<strong>studio.h</strong>文件来打开Android Studio。现在，你可以打开Android Studio了，因为我们还有一些工作要做。</p>
+<h3 id="下载SDK">下载SDK</h3><p>需要指定SDK的存放目录，就是你刚才解压出来的那个<em>android-sdk-linux</em>文件夹。同时，你需要下载SDK，主要是SDK与建造工具，下载完成：<br><img src="http://7sbmzt.com1.z0.glb.clouddn.com/updata_android_studio选区_007.png" alt="SDK下载完成"></p>
+<h3 id="下载Gradle">下载Gradle</h3><p>第一次新建工程的时候，需要下载Gradle，这需要很长的时间，请耐心等候。下载完成后你就可以使用Android Studio了。</p>
+<h2 id="其它">其它</h2><p>你已经可以使用Android Studio了，不过有一些对你有用的东西。</p>
+<h3 id="SDK无法下载">SDK无法下载</h3><p>由于墙的原因，下载Android SDK是一个很坑爹的过程，你很有可能无法下载。我们通过修改<strong>Hosts</strong>文件来解决。在<strong>/etc/hosts</strong>中添加以下三行：<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#SDK Update&#10;203.208.46.146  dl.google.com&#10;203.208.46.146  dl-ssl.google.com</span><br></pre></td></tr></table></figure></p>
+<h3 id="便捷打开Android_Studio">便捷打开Android Studio</h3><p>我们可以通过脚本打开Android Studio，你可以在<strong>/usr/bin</strong>目录下添加一个脚本。这是我写的脚本：<br><img src="http://7sbmzt.com1.z0.glb.clouddn.com/updata_android_studio选区_008.png" alt="便捷打开Android Studio"><br>这样的话，我们可以直接在命令行打开Android Studio：<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo android-studio</span><br></pre></td></tr></table></figure></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>最近Android Studio更新了，我也把它安装完成。分享分享一下经验。<br>]]>
+    
+    </summary>
+    
+      <category term="Android Studio" scheme="http://davidloman.net/tags/Android-Studio/"/>
+    
+      <category term="Linux" scheme="http://davidloman.net/tags/Linux/"/>
+    
+      <category term="SDK更新失败" scheme="http://davidloman.net/tags/SDK%E6%9B%B4%E6%96%B0%E5%A4%B1%E8%B4%A5/"/>
+    
+      <category term="Ubuntu" scheme="http://davidloman.net/tags/Ubuntu/"/>
+    
+      <category term="Android开发" scheme="http://davidloman.net/categories/Android%E5%BC%80%E5%8F%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[如何成为一个程序员]]></title>
+    <link href="http://davidloman.net/2014/12/11/%E5%A6%82%E4%BD%95%E6%88%90%E4%B8%BA%E4%B8%80%E4%B8%AA%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    <id>http://davidloman.net/2014/12/11/如何成为一个程序员/</id>
+    <published>2014-12-11T14:17:15.000Z</published>
+    <updated>2015-07-23T06:48:18.310Z</updated>
+    <content type="html"><![CDATA[<p>如果你想成为一个程序员，一个软件工程师的话，你应该付出一些努力，也许你对此不是很了解，我仅仅只能从我这些年自己学习，开发中的经验来总结出一些具有参考性的建议。在这里我不会告诉你应该怎么做怎么做，因为我并不了解你，我只能告诉你，这样做是有益的，而且你会从中收获许多。<br><a id="more"></a></p>
+<h2 id="一本专业的工具书">一本专业的工具书</h2><p>无论你要使用何种语言来编程，一本详细的介绍这门语言的书籍是必不可少的。你肯定也会通过网络来学习，因为对于编程的人来说，网络上的资源实在是太多了。不过无论如何，请你一定要有一本在离线的时候你能翻看的专业书籍。它可以是电子书，也可以是纸质书籍。因为首先，如果你对一个问题不了解，可能你仅仅是不了解这个问题，但也有一种可能，就是你对这方面的知识掌握得不够。通过网络你可能能够很快的解决这个问题，但是也有可能你会忽略了你的知识存在漏洞，这是十分可怕的事情。而专业的书籍往往能够用一种全面的眼光来向你解释相关的问题，通过这样的书籍，你可以轻松的发现自己再次之前所没有思考到的方面，并且作出调整。同时，在离线下能够使用也保障了你的问题能够在第一时间得到解决，特别是网络不好的情况。虽然在现在这看起来好像不太现实，可是生活当中处处充满意外，谁又能保证呢？当然，你如何知道或者选择这样的工具书呢？网络是一个很好的工具，你可以从网络上找到答案的。作为一个程序员，通过网络寻找答案或者是了解某个问题，这是一项必须的技能。最简单的，比如如何翻墙。</p>
+<h2 id="投入社区的怀抱">投入社区的怀抱</h2><p>一个人的学习是很辛苦的，所以你需要寻找相应的群体。在群体中， 你能得到的不仅仅是摆脱孤独感，更重要的是你能够学习到一些自己一个人学习时所注意不到的。俗话说：“三人行必有我师”。你应该在网络上寻找相应的社区，比如如果你与我一样，从事Android开发，那么你就应该了解eoe论坛，或者在某个Android开发群中。如果你不知道有哪些社区，你可以百度或者google，或者你可以在官网上看到相应的信息。当然，有一些大众的社区你也应当知道。这对你寻找到社区也是十分有效的，就我目前所知，以下几个网站都是不错的选择。它们都能为你解答许多编程中遇到的问题，甚至是结交朋友。</p>
+<ul>
+<li>国内：<br>知名问答网站：<a href="http://www.zhihu.com/" target="_blank" rel="external">知乎</a></li>
+<li>国外：<br>国际版知乎：<a href="http://www.quora.com/" target="_blank" rel="external">Quora</a><br>程序员版知乎：<a href="http://stackoverflow.com/" target="_blank" rel="external">Stackoverflow</a><br>程序员之家：<a href="https://github.com/" target="_blank" rel="external">Github</a></li>
+</ul>
+<h2 id="不断的编码">不断的编码</h2><p>古人云：“勤能补拙是良训”。身为一个程序员最需要的就是“勤劳”，这种勤劳是对自己编码的勤劳，而非编码时的勤劳。恰恰相反，当你编写代码时你应该懒惰，应该追求更短，更精炼。但是，你要有勤劳的习惯，勤劳的写代码，不断的写。编程是一件很特别的事情，它的真理在运行的时候会变得清晰无比。所以不断的编码是你提升技能的最好途径。如果你相对一个问题有一个充分的认识，你只需编码就可以了。和其它的学科不同，编程这件事情，如果在你运行之后，就能知道事情是否像你所想的那样了。通过不断的编码，你会发现很多自己之前没有注意到的点和许许多多的错误。而编程这件事情，就是你遇到的错误越多，你的功力就越高深。因为调试错误与查找错误的原因，会让你学习到很多知识。同时，不断的编程也能使你了解程序的框架，这一点很重要，特别是学会手写代码，而非机写。</p>
+<h2 id="提升英语水平">提升英语水平</h2><p>如果你确实要成为一个程序员，那么英文的能力将是你必须要有的技能。因为大部分先进的文档都是英文格式的;许多好的教学视频都是英文的;官方的最新发布都是英文的。如果你没有英文能力，你就如同失去眼睛与耳朵一样，这会成为你未来发展的一个障碍。所以，你最好努力提升自己的英文能力。至于英语对于一个程序员来说有多么重要，你可以看看别人如何命名其函数的，你就会发现英文的重要性。另外提升你的英文能力能够给你一个新的视野，你可以因此结识更多人，交更多的朋友。</p>
+<h2 id="一个女朋友">一个女朋友</h2><p>如果你是个男的，你最成为了程序员中的土豪程序员。如果你是个女的，那么你也不必为你的婚姻大事烦恼。对于一个男程序员，为了你的终生大事着想，你最好最好找一个女朋友，如果你有一个女朋友，请好好珍惜你的女朋友。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>如果你想成为一个程序员，一个软件工程师的话，你应该付出一些努力，也许你对此不是很了解，我仅仅只能从我这些年自己学习，开发中的经验来总结出一些具有参考性的建议。在这里我不会告诉你应该怎么做怎么做，因为我并不了解你，我只能告诉你，这样做是有益的，而且你会从中收获许多。<br>]]>
+    
+    </summary>
+    
+      <category term="工具书" scheme="http://davidloman.net/tags/%E5%B7%A5%E5%85%B7%E4%B9%A6/"/>
+    
+      <category term="程序员" scheme="http://davidloman.net/tags/%E7%A8%8B%E5%BA%8F%E5%91%98/"/>
+    
+      <category term="英语" scheme="http://davidloman.net/tags/%E8%8B%B1%E8%AF%AD/"/>
+    
+      <category term="编程经验" scheme="http://davidloman.net/categories/%E7%BC%96%E7%A8%8B%E7%BB%8F%E9%AA%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[我的Ubuntu之旅]]></title>
+    <link href="http://davidloman.net/2014/12/08/%E6%88%91%E7%9A%84Ubuntu%E4%B9%8B%E6%97%85/"/>
+    <id>http://davidloman.net/2014/12/08/我的Ubuntu之旅/</id>
+    <published>2014-12-08T11:57:09.000Z</published>
+    <updated>2015-07-23T06:48:18.310Z</updated>
+    <content type="html"><![CDATA[<p>我与Linux的结缘是在13年，那时的我第一次见到了Ubuntu，于是就被这一系统所深深吸引了。这也促使我开始学习与使用Linux。目前使用Linux大概也有一年左右的时间，很多感慨。<br><a id="more"></a></p>
+<h3 id="初见Linux">初见Linux</h3><p>很多事情你只记得自己砰然心动的那一瞬间，而不再记得是从何时起开始动心的，我与Linux的结缘大概也是这样的过程。记得我因Linux砰然心动的时候是在2013年的时候。13年的夏天我有幸参加了黑龙江省ACM大赛，在这一比赛上，我们使用的就是Ubuntu，那是我第一次见到Linux。那是经典的Ubuntu界面，用的的Unity桌面，那时的我只能通过桌面打开CodeBlock进行编程。至于其它的功能，我是一项也不会，更不用说命令行了。就是在这次的比赛上，我看到了许多熟悉该系统的选手，于是我就想，我也应当了解这一个系统。比赛结束后的假期，我便开始了解Ubuntu这个系统，我翻阅了许多的书籍，可惜的是很多的都是看了一点就不再看了，因为它们大抵都是一个又一个命令的讲，可是一个又一个的命令实在是无聊至及。不过还好的是，我开始尝试安装Ubuntu了。</p>
+<h3 id="第一次的Linux之旅">第一次的Linux之旅</h3><p>当我第一次在电脑上运行起Ubuntu的时候，一切都不友好。很Geek风格的桌面，没有什么好用的软件，不知道怎么下载软件，怎么安装软件等等，于是就这么迷茫。看着一条又一条的命令，我的无奈从内心油然而生。这是多么无聊的一件事啊！刚开始的热情瞬间就消失殆尽了。于是我便放弃了Linux，由于我使用的是双系统所以抛弃的时候什么也不用做，仅需要把引导换成Windows就可以了。于是Linux对于我来说也就是一个我曾经折腾过的系统了。今次而已</p>
+<h3 id="再一次相见">再一次相见</h3><p>在我即将忘记自己电脑上还有Windows的时候，我很有幸又一次见到了陈老师，他问了我离开实验室后都在做什么，我跟他讲自己在学习Android，于是他说他最近正好在教Linux，Android是基于Linux内核的，你可以来旁听。我想既然自己已经把Ubuntu装上了，自然也得对自己有个交待。所以我也便去旁听了Linux课程。正是陈老师的课程让我打破了对Linux的恐惧，由此而算入门了。从陈老师的课上我认识了很多的知识，比如基本的文件操作，文件挂载，文件系统等等。由此对于Linux我不再恐怖了，正是从那时开始我便开始使用Linux，由此也体验到了Linux的诸多好处。衷心的感谢陈老师！</p>
+<h3 id="Why_Linux">Why Linux</h3><p>使用Linux的过程中，有很多的优势，当然有更多的劣势。关键在于你如何取舍。在我目前看来Linux有以下的优势。</p>
+<ol>
+<li><strong> 更加方便的软件获取方式</strong><br>在Linux世界中，软件往往都是有官方的维护，或是第三方维护。安装一个软件可以很简单，你至于要掌握这三步，首先，你需要在你的软件源中添加该软件的源，而后，更新软件管理器，第三，执行安装软件。是的，就是这么简单，如果你想要安装的软件正好在官方提供的源中，那么你只需安装就可以了。</li>
+<li><strong>对网络的支持更好</strong><br>你应该知道，这是世界上诸多的服务器都是跑在Linux/Unix环境下的。而许多网络协议都是来自于开源运动，等等。这一切带来了一个使Linux对Windows拥有优势的地方，就是在网络管理方面，Linux更加透明，也更加便捷。这个优势对于程序员来说是很有吸引力的。自从我开始使用Linux之后，就接触了一些这方面的知识，感觉受益匪浅。这也是我目前使用Linux的重要原因。</li>
+<li><strong>免费</strong><br>是的，对于我来说这是一个非常重要的优势。在此之前，我所用的系统和诸多人一样都是盗版的Windows，这是一种非法的行为，而且对于知识来说是一种不尊重。然而Linux却不存在盗版的问题，因为它完全免费，你无需为这一系统付钱。通过网络你不仅可以下载到该系统，还可以传播该系统，因为它是开源的。这意味着在遵守一定的协议下可以自由的传播它。</li>
+<li><strong>强大的自定义能力</strong><br>你不满意千篇一律的桌面，你不想要系统捆绑的软件，你想定制更加酷炫的软件。那么你就加入Linux吧，这里没有任何标准，所以你可以死命的折腾。有无数的教程会引导你去打造适合你的软件。因为这个系统的软件获取方式是便捷的。  </li>
+<li><strong>广泛的拓展能力</strong><br>来到Linux世界，我最喜欢的就是它的脚本能力了。Linux上集成了Phython，这门编程语言拥有强大的库，使用这些库，你可以做很多很多的事情。同时，通过Shell编程，你可以打造一个极其容易上手的PC。这使我的效率提高了不少，所以我才如此偏爱这个系统。     </li>
+</ol>
+<p>恩，对于我来说，目前的Linux有这些优势。</p>
+<h3 id="你是否适合加入Linux">你是否适合加入Linux</h3><p>虽然Linux拥有以上的优势，但是于此同时它也是有许多缺点的。就比如，在Linux下，你几乎不能玩任何游戏。对于习惯了腾讯系的各种游戏的人来说，这一切都与你无缘了。所以加入Linux是有代价的，当然你可以与我一样采用折衷的方案——通过双系统。不过你还是需要知道自己是否需要一个Linux系统。通过以下几点你应该知道自己是否适合使用Linux系统。</p>
+<ol>
+<li><strong>程序员</strong><br>如果你是一个程序员，那么你无需多想，你应该在你的电脑上搭建一个Linux系统，为什么呢？首先，Linux上能够很方便的获取各种编程语言，能够获取各种编程软件的更新。其次，有很多实用的软件很方便的运行在Linux上，比如说经常使用的Git，对于前端来说很有用的node.js等等。最后，Linux是开源系统，这会方便你更了解Linux系统，也更了解操作系统，相信我了解操作系统会对你编程有很大帮助。</li>
+<li><strong>对于游戏的要求不高</strong><br>如果你平常不怎么玩游戏，或者对于游戏的画质要求不高。那么，你可以考虑进入Linux世界，因为这是一个缺乏游戏，或者游戏画质不高的系统。毕竟我们不能要求开源系统开发出高画质的游戏。你如果确实无法抛弃游戏，你可以通过双系统或者wine，不过显然后者的效果不是太好。</li>
+<li><strong>喜欢折腾</strong><br>使用Linux系统，一定是一个折腾的过程。除非你能够忍受又丑又臃肿的默认桌面。所以，你一定需要的是折腾的精神。无论是开启wifi，还是安装一个拼音输入法等等，你都需要不断的折腾。当然，通过折腾，你可以学到很多的知识。这是你使用方便的Windows时无法获得的体验。对于我来说这是个好习惯。</li>
+<li><strong>精神洁癖</strong><br>是的，如果你是一个精神洁癖，毫无疑问，你需要一个Linux系统。    </li>
+</ol>
+<p>那么，你是否准备好了，开启你的Linux系统呢？别急，在进入Linux系统之前，我们还有一些工作要做，毕竟“磨刀不误砍柴工”。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>我与Linux的结缘是在13年，那时的我第一次见到了Ubuntu，于是就被这一系统所深深吸引了。这也促使我开始学习与使用Linux。目前使用Linux大概也有一年左右的时间，很多感慨。<br>]]>
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://davidloman.net/tags/Linux/"/>
+    
+      <category term="Ubuntu" scheme="http://davidloman.net/tags/Ubuntu/"/>
+    
+      <category term="Ubuntu平台" scheme="http://davidloman.net/categories/Ubuntu%E5%B9%B3%E5%8F%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Key & Value 漫游]]></title>
+    <link href="http://davidloman.net/2014/11/25/Key-Value-%E6%BC%AB%E6%B8%B8/"/>
+    <id>http://davidloman.net/2014/11/25/Key-Value-漫游/</id>
+    <published>2014-11-25T11:57:23.000Z</published>
+    <updated>2015-07-23T06:48:18.310Z</updated>
+    <content type="html"><![CDATA[<p>编程世界中，你往往会遇到很多名词，它们几乎都有一个特点就是让人不知所云。不过要是仔细仔细琢磨，其实也就很好理解了。<br><a id="more"></a></p>
+<h2 id="概述">概述</h2><p>在程序中，我们往往会存储一些数据。数据的存储是一个很有趣的过程，它有时体现了数据结构的有点，有时又像是脑洞大开的尝试。所有的数据存储不过就是一个Key对应一个Value的过程，不过在不同的语言中，或者是在不同的场景中，这种存储的形式会变得十分的不同。在程序里，我们会用变量，常量，类等方式来存储数据。而离开了程序我们可以使用文件，数据库等。在网络上，你可以通过HTML，XML，JSON等来存储数据。这些方法看似差异巨大，不过要是慢慢的去了解的话，你会发现其实一切都有着很多的相似之处。我将从变量开始，不断的分析，到最后了解网络中那些数据存储。这是一个有趣的过程，因为数据存储方式实在是太多，太让人惊奇了。本文将重点带你了解在编程语言中数据的存储。</p>
+<h2 id="从简单的说起">从简单的说起</h2><p>当你学习编程的时候，你一定对这样的语句有很亲切的感觉：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> a= <span class="number">0</span>;</span><br><span class="line">String s= <span class="string">"Hello world !"</span>;</span><br><span class="line"><span class="keyword">char</span> c=<span class="string">'a'</span>;</span><br></pre></td></tr></table></figure></p>
+<p>我的编程之路就是从这样的语句开始的，它们都被称之为赋值语句。就是将值（Value）赋予某个变量的过程。从以上的例子来说，字母‘a’ ，‘s’ ，‘c’ 所代表的就是Key，而‘=’后面的东西就是Value。我们在使用的时候只要通过这个Key就可以得到Value了。比如：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">System.out.println(s);</span><br></pre></td></tr></table></figure></p>
+<p>这样的话，我们就会得到“Hello world ！”了。我并不会告诉你它在内存中是如何实现的，如果这样的话，这篇文章将变成具有很浓烈的教科书气息的文章了。我所关心的只是这一种存储数据的形式，仅此而已。所以我们可以将这个Key与Value的关系结合起来。我们大胆的假设这个Key里面存储了这个Value（真实的情况往往不是如此），就比如我们把Key看成是一把钥匙，Value就是存储在这门后面的内容。这样你就会发现，变量其实就是通过变量名这把钥匙把值锁在了自己的房间里的一个过程。不过这个房间里的东西是可以变换的，比如当我的房间里存储的是整形数据时我可以把值变得更大或者变得更小。然而常量是不可变的，你可以使用它，但是你不能改变它。你要了解这个过程即：一个Key可以对应一个Value，我们通过这样的方式来存储数据。就比如上面的例子，我们用a存储了一个整形的0！接下来，我们要升级了。</p>
+<h2 id="多个相同类型的数据">多个相同类型的数据</h2><p>在你已经部分了解编程这件事情后，我们会遇到一个新的语法，这个语法是十分有用的。不过好像在Java中它并不常被使用。这便是数组。（我不会向你解释数组在程序中实际的物理存储方式，而仅仅是希望你能看清这一种存储的思路。）当具有更多的单一类型的数据时，我们都可以使用数组。其语法如下：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//c++ style</span></span><br><span class="line"><span class="keyword">int</span> a [<span class="number">100</span>];</span><br><span class="line"><span class="comment">//java style</span></span><br><span class="line"><span class="keyword">int</span> a[] = <span class="keyword">new</span> <span class="keyword">int</span> [<span class="number">100</span>];</span><br></pre></td></tr></table></figure></p>
+<p>你会发现它有一定的长度，数据类型固定，它通过一个下标来作为区分。我们可以将不同的下标看成是不同的房间号，一个数组就相当与酒店的某一层，所有房间的房型是一样的。这个过程同样是一个Key&amp;Value的过程，不过它看起来复杂了点。首先，你要知道这是哪一层（你要调用哪一个数组），一个数组名其实就是一个Key，这个Key对应的Value就是这一层里所有的房间，而同时一个房间号又是一个Key，它对应的才是我们真正使用的数值。假如你开始糊涂了，就做一个简单的想象，你来到了某个酒店的11层，你就知道了该层里所有的房间号。而后，你要找1105的人，你就得到1105号门前去。就是这样一个过程。当你到11层时，11层就是一个Key，所有的房间号就是这个Key的Value，当你到了1105号门前时，1105号门就是一个Key，1105号门里的人就是Value。数组就是这样来存储数据。甚至是计算机在访问时也是遵循这一个过程的。希望你没有被绕晕，因为我们又将面临新的挑战。</p>
+<h2 id="多个不同类型的数据">多个不同类型的数据</h2><p>当我们需要存储数据时，情况往往是十分不同的。比如，我要存下一个同学的信息，那么这就会有年龄，学号，姓名，手机等信息。你当然可以将它们都赋值为字符，因为这会使你在处理时更加方便。但是你也会发现这些数据好像不该用数组来存储，毕竟它们代表的是不同的属性。所以我们会发现一些新的数据处理方式。</p>
+<h3 id="C++的结构体">C++的结构体</h3><p>在C++中，有一种与数组完全不一样的数据存储方式，这便是结构体。<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">struct</span> person</span><br><span class="line">&#123;</span><br><span class="line">     <span class="keyword">int</span> age;</span><br><span class="line">     <span class="keyword">char</span> name[<span class="number">20</span>];</span><br><span class="line">     <span class="keyword">char</span> phoneNumber[<span class="number">15</span>];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>结构体大大丰富了我们存储与使用数据的方式，不过它也带给大家一些痛苦。其实你只要把它当成与数组一样的存储方式就可以了。不过你得换个角度思考，因为它存储的数据类型，就是数据类型。这就像是一幅地图，你不能在地图上确实到达一个真实世界的地方，不过你可以根据地图来找到那个地方。如上面的例子显示的一样，我们可以把person看成是一个Key，然后这个Key对应的是三个变量即：age，name，phoneNumber。只不过name与phoneNumber比较复杂，又恰好是个数组，于是name，phoneNumber又可以成为Key去存储相关的Value。但是所有的过程还是离不开Key与Value。在C++中，我们之所以要引入这样的数据结构是因为，我们发现有些变量是有联系的，它们可以被存储在一起。而面向对象编程把这种特性发扬光大了。</p>
+<h3 id="类">类</h3><p>在面向对象编程中，类是一个很重要的概念。所有的程序都是基于类来构建的，类中的许多特性都体现了面向对象编程本身的特点。类的形式通常如下：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Person</span> </span>&#123;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">int</span> age;</span><br><span class="line">    String name;</span><br><span class="line">    String phoneNumber;</span><br><span class="line">    </span><br><span class="line">    Person()&#123;&#125;;</span><br><span class="line">    </span><br><span class="line">    <span class="function">String <span class="title">getPhoneNumber</span> <span class="params">()</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> phoneNumber;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>你会看到在类里一样的有变量，不过除了变量这里面还有方法。其实思路还是一样的，我们一样将类看成是一座酒店的话。你步入酒店中，你就能到达很多很多的地方，这些地方有的可能是厨房，有的可能是客房，有的可能是会议室。它们就是变量与方法，只不过，变量对应的数值，而方法对应的是某种操作。所以其实类也一样的是一种存储数据的方式，它也一样遵守着<strong>Key&amp;Value</strong>的法则。所以不要被它的名堂吓怕了。</p>
+<h2 id="总结">总结</h2><p>如果你接触过编程你一定对这么一句话很熟悉，人们总是不厌其烦的告诉你：<strong>程序就是数据结构与算法</strong>。对于你来说这二者都是抽象的。不仅是数据结构是抽象的，相对的算法也是抽象的。你从那些冷冰冰的文字中根本就感觉不出来数据结构是个什么东西，算法又是什么东西。但是其实，如果你能够理解本文的话，你会发现数据结构就是这么一个东西，它就是<strong>Key&amp;Value</strong>这一法则的完美应用。你所学习到的链表是这样的，树是这样的，图是这样的。因为说到底它们都是一种存储数据的方式。但是，如果你仅仅是看它们的表象，你一定会被它们的纷繁复杂所迷惑。在未来，我将向你介绍其它的存储方式，看上去很不可思议，但是却又遵循着这样的思想。希望你能够有所收获。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>编程世界中，你往往会遇到很多名词，它们几乎都有一个特点就是让人不知所云。不过要是仔细仔细琢磨，其实也就很好理解了。<br>]]>
+    
+    </summary>
+    
+      <category term="学习" scheme="http://davidloman.net/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="结构体" scheme="http://davidloman.net/tags/%E7%BB%93%E6%9E%84%E4%BD%93/"/>
+    
+      <category term="编程" scheme="http://davidloman.net/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+      <category term="面向对象" scheme="http://davidloman.net/tags/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
+    
+      <category term="编程经验" scheme="http://davidloman.net/categories/%E7%BC%96%E7%A8%8B%E7%BB%8F%E9%AA%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[搭建Ubuntu下的开发环境]]></title>
+    <link href="http://davidloman.net/2014/11/25/%E6%90%AD%E5%BB%BAUbuntu%E4%B8%8B%E7%9A%84%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
+    <id>http://davidloman.net/2014/11/25/搭建Ubuntu下的开发环境/</id>
+    <published>2014-11-25T11:41:59.000Z</published>
+    <updated>2015-07-23T06:48:18.310Z</updated>
+    <content type="html"><![CDATA[<p>前几天一直在看如何将Ubuntu下的桌面主题变换成Mac风的，然后就升级了系统，从原来的12.04升为14.04。之后发现现在14.04下的输入法并不好使，bug太多……于是又折腾了一阵。目前还行，还把QQ装上了，所以就介绍介绍如何打造Ubuntu下的编程环境吧。<br><a id="more"></a></p>
+<h2 id="编程软件安装">编程软件安装</h2><p>由于我在做Android开发，所以，我搭建的开发环境是基于Android的。在此就不详细描述，主要是安装SDK，Android Studio。这些软件在linux下还是相对来说比较好安装的，SDK的话就是需要在在系统中添加环境变量。这些东西，等到以后有机会再统一分享给大家，现在我们的目标是环境。</p>
+<h2 id="文本编辑">文本编辑</h2><p>我有一个习惯就是喜欢用markdown文本，这使我比较痛苦。因为Linux环境下的markdown编辑器还是不多的。之前用了网上许多人推荐的Retext，然而发现这货一点都不好用。所以又是一番寻找，终于找到了又一个跨平台的应用。就是我现在的Haroopad，界面还是挺好的，能够让你一边编写就能看到效果，相对于Retext来说还是挺有长进的，而且支持将文本转化成网页。这一点还是挺好的。该应用有deb包，要获得该应用可以从其官网下载。当然，我在下载的时候发现从官网下载好像很卡，而且可能有墙。所以就把deb包上传了。所以你可以从官网下载，或者通过我提供的链接下载。</p>
+<p><a href="http://pad.haroopress.com/user.html" target="_blank" rel="external">Haroopad</a><br><a href="http://linuxsoftware.qiniudn.com/haroopad-v0.12.2-i386.deb" target="_blank" rel="external">我的空间</a></p>
+<h2 id="桌面壁纸">桌面壁纸</h2><p>我在这里需要向大家推荐一个应用，Ubuntu Tweak，这货太强大了，而且是中文界面。它有什么功能呢？其实也很简单，就是安装应用啦，清理垃圾啦，换壁纸啦。换桌面主题等等。。。所以墙裂推荐大家使用。桌面壁纸的话，就使用Ubuntu Tweak里面的<strong>爱壁纸</strong>就行。</p>
+<h2 id="桌面主题">桌面主题</h2><p>对于一个追求美的人来说Unity桌面很难称得上美观，所以诞生了许许多多的主题，它们作为Unity桌面的补充，大家还是可以尝试尝试的。我目前安装的这个桌面就是基于Mac风格的。具体的安装方法可以参考这篇帖子，写的很详细，很有帮助。</p>
+<p><a href="http://linux.cn/article-3487-1.html" target="_blank" rel="external">Ubuntu下Mac风格</a></p>
+<h2 id="娱乐">娱乐</h2><p>娱乐的话，我们只要使用系统自带的播放器就可以了，或者通过各种网页音乐播放器，比如<strong>网易云音乐</strong>，<strong>豆瓣FM</strong>等等，这么多个工作区，不用白不用啊，哈哈。</p>
+<h2 id="总结">总结</h2><p>总之，Linux下更多的是靠你自己去摸索，通过互联网你可以学习到很多，对了，你好像连接不上Google，恩恩，是时候试试IP了，虽然除了查资料什么也干不了。我一直使用的IP是：64.233.165.46，你也可以试一试。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>前几天一直在看如何将Ubuntu下的桌面主题变换成Mac风的，然后就升级了系统，从原来的12.04升为14.04。之后发现现在14.04下的输入法并不好使，bug太多……于是又折腾了一阵。目前还行，还把QQ装上了，所以就介绍介绍如何打造Ubuntu下的编程环境吧。<br>]]>
+    
+    </summary>
+    
+      <category term="Android studio" scheme="http://davidloman.net/tags/Android-studio/"/>
+    
+      <category term="Makedown" scheme="http://davidloman.net/tags/Makedown/"/>
+    
+      <category term="便捷" scheme="http://davidloman.net/tags/%E4%BE%BF%E6%8D%B7/"/>
+    
+      <category term="开发" scheme="http://davidloman.net/tags/%E5%BC%80%E5%8F%91/"/>
+    
+      <category term="Ubuntu平台" scheme="http://davidloman.net/categories/Ubuntu%E5%B9%B3%E5%8F%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[自由的代价]]></title>
+    <link href="http://davidloman.net/2014/10/26/%E8%87%AA%E7%94%B1%E7%9A%84%E4%BB%A3%E4%BB%B7/"/>
+    <id>http://davidloman.net/2014/10/26/自由的代价/</id>
+    <published>2014-10-26T08:11:13.000Z</published>
+    <updated>2015-07-23T06:48:18.310Z</updated>
+    <content type="html"><![CDATA[<p>当人们拥抱开源，享受开源为我们世界带来的那些良好的变化时，有些人却深处痛苦之中，它们是应用的开发者，特别是为开源操作系统开发软件的程序员。<br><a id="more"></a></p>
+<h3 id="从Android说起">从Android说起</h3><p>当前的移动互联网操作系统由两个平台把持着，一个Apple的IOS，一个是Google的Android。作为一个Android程序员，我们清楚开放、自由所带来的优势，但是也常常被这种开放与自由所困扰。</p>
+<p>早在21世纪初，人们对手机的看法还仅限与一种比手机更加便捷的通讯工具。然而短短10年的发展，已经使得这种想法变得如此可笑。我获得的第一个手机还是一个彩色的非智能机，那时在这一领域十分有名气的手机制造商是诺基亚，摩托罗拉。在这个时候我们购买手机的关注点几乎在于它的品牌，因为品牌代表了质量，而这时衡量手机质量的可能在于其使用的时间。然而，等我在三年后购买第二台手机时，我发现了一些变化。几乎所有的手机都已经是彩屏的了，如果一个手机无法支持彩屏，那么它不会怎么受欢迎。而人们的关注点已经发生了变化，人们开始关心手机上的非通讯功能，手机开始慢慢变得电脑化。两年左右的时间，我身边的同学几乎都已投生Android中，有些土豪级别的开始换成了IPhone，而我还是使用着两年前的Symbian系统。这一当年秒杀一切的操作系统在此时已经不再更新了。而现在，Android占领了大部分的中低端市场，IPhone继续延续着它的神话。对于微软来说前景有点暗淡，因为WindowPhone并未取得很好的战绩。而推广Symbian系统的诺基亚已经被微软收购。毫无疑问，在过去的几年Android取得了优秀的成绩，战胜了封闭的Symbian。         </p>
+<h3 id="Android的优势">Android的优势</h3><p>Android系统采用了Linux内核，是一个开放的系统。你几乎可以在生活的任何角落找到它的身影，它可以用在手表，手环，电视，可穿戴设备等上，这也是Google一直在推行的。希望通过Android来建造一个更加美好的世界。Android作为一个开源的操作系统，它的优势在于其多样性。你可以找到各种价位的Android手机，你也可以找到各种硬件配置的Android手机。在Andriod的阵营里，你可以有丰富的选择。这也是Android在目前能够与苹果较量的原因。正是这种多样性，为Android带来了许多的使用者。另外Android的应用市场也是相当丰富，其非常低的进入成本使得这一领域有着众多的应用。这一点是IOS无法比拟的（不过质量是另一回事了）。两者共同结合，就是Android目前的优势。然而这样的优势却给开发者与使用者带来了不小的麻烦。</p>
+<h3 id="开发者的困局">开发者的困局</h3><p>如果你想要从事Android开发的话，恐怕你得先想一想我是否有足够的精力来做这一项工作。由于Android的开放性，市场上有各种各样的Android屏幕，当你仅仅是满足自己使用的需求时。你会发现为Android开发应用是一件惬意的事。你可以为你的应用指定屏幕大小，在IDE中查看自己应用所呈现的效果。然而当你要为所有市面上的Android终端开发应用时，你会发现这是一件不大不小的挑战。你的应用可以在某一型号的屏幕上有很好的展现效果，可是当屏幕改变时，它可能变得丑陋无比。虽然Android提供了一套多屏普适的方案。可是这一切看起来还是不太好。      </p>
+<p>目前Android系统的版本已经到达了5.0，然而仍然有一部分的机器还是在3.0以下。所以在为Android开发应用时，我们不可避免的要遇到的问题是向后兼容。所幸，在这一方面Android的支持还是比较好的，否则又是一个大坑了。    </p>
+<p>由于众多厂家的加入，定制Android系统已经成为一种习惯了。在中国，就有许多定制的Android系统，比较有名的有小米的miui，魅族的flyme等，许多厂商也会根据自身情况进行修改。有些修改对于消费者来说是一个不小的方便，然而对于开发者来说，这些修改无疑给我们带来了诸多不便。比如无法获取相应的权限，无法发送提醒等等。</p>
+<h3 id="消费者的问题">消费者的问题</h3><p>这样的开放策略并非对消费者就是全然好的，Android市场的开发，自由特性诱发了诸多的病毒与流氓应用，这些应用都对消费者的信息安全构成了一定的危害。另外，定制的系统通常无法在第一时间更新，这也是另很多消费者不满意的地方。这些都是Android目前不完善的部分。</p>
+<h3 id="总结">总结</h3><p>Android通过它的开发、自由占领了市场，然而却也为消费者与开发者带来了许多不便。我并不认为这样的情况下，我们就不应该提倡开放、自由。而是开放与自由需要一定的限制。希望Google方面能完善这一部分限制。对于Android的未来，个人持乐观态度。目前，苹果坚持着自身的封闭特性，这为苹果带来了高质量的应用，不过也减少了许多用户。微软的WindowPhone错过了当年快速发展的时期，现在想要反超Android还有待时间的考验。此外，Android目前已远远不是一个运行与手机或平板上的操作系统。它同样运行在了智能穿戴，电视等终端上。这是目前Google的优势。所以，如果自身能够在监管上有一定的发力，Android的未来还是很美好的。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>当人们拥抱开源，享受开源为我们世界带来的那些良好的变化时，有些人却深处痛苦之中，它们是应用的开发者，特别是为开源操作系统开发软件的程序员。<br>]]>
+    
+    </summary>
+    
+      <category term="Android" scheme="http://davidloman.net/tags/Android/"/>
+    
+      <category term="封闭" scheme="http://davidloman.net/tags/%E5%B0%81%E9%97%AD/"/>
+    
+      <category term="开源" scheme="http://davidloman.net/tags/%E5%BC%80%E6%BA%90/"/>
+    
+      <category term="自由" scheme="http://davidloman.net/tags/%E8%87%AA%E7%94%B1/"/>
+    
+      <category term="杂谈" scheme="http://davidloman.net/categories/%E6%9D%82%E8%B0%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[开源与闭源]]></title>
+    <link href="http://davidloman.net/2014/10/20/%E5%BC%80%E6%BA%90%E4%B8%8E%E9%97%AD%E6%BA%90/"/>
+    <id>http://davidloman.net/2014/10/20/开源与闭源/</id>
+    <published>2014-10-20T12:55:19.000Z</published>
+    <updated>2015-07-23T06:48:18.310Z</updated>
+    <content type="html"><![CDATA[<p>最近受到知乎的影响，买了《大教堂与集市》来拜读，发现挺有意思的。所以把自己的点点滴滴思考记录在这里与大家分享。这是第一篇，以后应该还会有后续。因为，确实从书中学到了很多东西，或者说是认识到了之前自己遇见过的问题是怎么一回事。<br><a id="more"></a></p>
+<p>自己对于开源运动的认识来自于GNU，也就是从我打算接触Linux这一操作系统之后开始的。关于Unix与Linux的历史背景，大家可以自己去了解。我觉得是很不错的了解计算机发展历史的资料。GNU并非开源这是我后来知道的，也是GNU的提倡者：<a href="http://zh.wikipedia.org/wiki/%E7%90%86%E6%9F%A5%E5%BE%B7%C2%B7%E6%96%AF%E6%89%98%E6%9B%BC" target="_blank" rel="external"><em>Richard Stallman</em></a>自己的看法。不过我倒不认为需要把它俩区别对待，如果非要的话，无非是GNU更加激进，开源运动相对保守一点。</p>
+<h2 id="闭源的强权">闭源的强权</h2><p>在PC出现后，软件开发的过程往往通过一个精英团队来负责的。这个团队通常来说都是比较小的，因为，规模的增大会给开发带来更多的沟通障碍。所以有很多的系统都是通过小规模的精英团队来完成的，比如赫赫有名的Unix系统。同时，这也便产生了一种软件开发的模式，即大教堂模式，他们通过精英团队封闭的开发来构建一个用户喜欢的软件，微软就是这种模式的典范。这样的公司大多是闭源的，即你可以使用我的软件，但是你无法获得软件的源代码。所以它不支持个人对该软件的修改。这被证实是一条很有效果的商业话之路。然而，对于追求极致的黑客们来说这是不能接受的。因为大部分黑客都有一个习惯就是做自己想做的。他们喜欢在一个软件上，任意的修改，以完成自己想要的功能。而正是由于Unix并不提供源代码，使得<em>Richard Stallman</em>掀起GNU的大旗，喊出：<strong>GNU’s not Unix</strong>的口号。而后才有了传奇人物<a href="http://zh.wikipedia.org/wiki/%E6%9E%97%E7%BA%B3%E6%96%AF%C2%B7%E6%89%98%E7%93%A6%E5%85%B9" target="_blank" rel="external"><em>Linus Torvalds</em></a>开发出Linux成为开源的主基地的故事。然而闭源有错吗？没有。闭源使软件更具有交互性，同时也能为用户提供更多的保障（至少用户不需要每天都在网上查找问题的解决方法）。这正是闭源的优势所在，如果想了解我所说的，只需要装个双系统，一边用Winows，一边用Linux的各种发行版就行。因为对于黑客来说，解决问题，并不是一件很痛苦的事，相反有时反而能够从中获取兴奋感。而闭源是他们无法对自己所使用的软件进行修改，这是一种痛苦。所以，他们开始了开源之路。</p>
+<h2 id="开源的崛起">开源的崛起</h2><p>开源运动的兴起，从本质上来说，源自与大家对自由的追求。而他借助着Linux而得到了发展，同时通过Git这样的开源平台许多的开源项目出现了。它们秉持的是另一种思想。即把对软件的修改权限交给用户，因为，每个用户都是潜在的开发者。通过大量用户的参与，不仅可以查找到软件中的错误，还可以不断的完善软件。该思想最大的闪光点在于开发与维护了Linux内核，这归功于开源社区的贡献。而这种开发模式使得许多的项目由此而产生，我们的生活也有了更多的选择。在我写这篇文章的时候，就用了诸多的开源软件。从一个操作系统内核开始，开源软件开始覆盖生产生活的各个角落，只要你有心，你几乎能找到诸多闭源软件的开源替代品。（不过开源并不等同于免费哦）不过这并不意味着目前的开源软件已经能够胜过闭源软件了。还是从操作系统上来看，闭源的Windows依然占据着个人操作系统的大头，而Linux在个人桌面上，一直都是软肋。而且开源导致了诸多的发行版。这就是自由的结果。我们有了更多的选择，然而它阻碍了Linux整体的竞争力。这一点用在有着开源基因的Android上也是一样的。目前的Android由于开放的政策，使得用户有了更多的选择，但是对于开发者来说，这绝对是一场噩梦！这一点以后有机会再谈。</p>
+<h2 id="开源危机">开源危机</h2><p>不过所有的事情在它走向强大的同时必然也要面临着自身发展中出现的诸多问题。开源软件也是一样的。在此之前，黑客们通过协作完成了一些令人惊奇的软件，由此，许多拥有自由思想的年轻人积极的投身到了开源事业中来。但是大量的人员涌入导致了许多劣质的软件的产生。Github从开源圣地成为了许多人眼中的代码垃圾堆。当然这些并不足以撼动开源的地位，以及动摇其对闭源的优势。然而，当一些严重的问题发生在开源软件中的佼佼者身上时，其对开源软件的打击是可想而知的。在今年，有两个新闻特别引人注目。首先是著名的SSL协议爆出了“心脏出血”漏洞，而后，重要的开源工具Shell也爆出了存在被注入的漏洞。这些都是人们重新思考开源软件的信条之一的“眼睛越多，Bug越无处可逃”是否是可靠。当然笔者对此还是持乐观的态度的。其实，开源软件出现漏洞是一件好事，因为，它会促进黑客们加强对代码的检查。所以目前开源所遭遇的危机并非坏事。相反，如果能够因此产生一套对Bug进行跟踪的机制，开源的未来会更加美好。</p>
+<h2 id="展望">展望</h2><p>作为两种截然不同的编程方式，你不能说那种方式更好，而应该考虑环境的影响。对于强交互的软件，我认为闭源的开发模式可能会更加合适。毕竟，工程师们更多的情况下考虑的是代码更精简，功能更强大。对于界面与交互，可能并不是工程师的强项。比如你不能让我去给你的应用设计UI，这对我来说是陌生的。你可以让我帮你实现功能，并且将代码写到极致。所以开源适合于对于界面要求不是很多的软件中，它们更看重功能的实现。而不是界面如何炫酷，狂拽，屌炸天。所以在未来，传统的闭源公司并不会被取代，它还会存活一段时间。而开源将会触及更多的领域。我们将有幸能够获取更多美好的开源应用。当然另一方面，软件（software）这个名词，正在慢慢的被应用（application）所取代，这是移动互联网迅猛发展的结果，也是未来的趋势。而我们看到的是在应用上，有太多的组件已经采用了开源的模式。这意味着，在未来，应用的开发将更加的便捷。对于软件提供的功能，我们无需花很大的力气去研究，而只要学会如何使用就可以了。这也是我们不应该忽视的一个趋势。</p>
+<h2 id="总结">总结</h2><p>开源软件的出现源于人们对自由与分享的追求，而现在正在慢慢的成为一种趋势。它能带来的除了越来越多无用的垃圾代码外，还有许多优秀的开源组件与软件，它们将使我们的生活更加便捷。当然，像所有的事物一样，开源运动发展肯定也会遇到相应的困难，不过，我相信有广大的开源爱好者的存在，这些困难最终都能够得到良好的解决。当然，开源并不意味着免费，而是它提供了一种开发的思想。这种思想，有利于诸多的开发者在互联网的帮助下，开发出一个美好的应用。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>最近受到知乎的影响，买了《大教堂与集市》来拜读，发现挺有意思的。所以把自己的点点滴滴思考记录在这里与大家分享。这是第一篇，以后应该还会有后续。因为，确实从书中学到了很多东西，或者说是认识到了之前自己遇见过的问题是怎么一回事。<br>]]>
+    
+    </summary>
+    
+      <category term="《大教堂与集市》" scheme="http://davidloman.net/tags/%E3%80%8A%E5%A4%A7%E6%95%99%E5%A0%82%E4%B8%8E%E9%9B%86%E5%B8%82%E3%80%8B/"/>
+    
+      <category term="开发" scheme="http://davidloman.net/tags/%E5%BC%80%E5%8F%91/"/>
+    
+      <category term="开源" scheme="http://davidloman.net/tags/%E5%BC%80%E6%BA%90/"/>
+    
+      <category term="杂谈" scheme="http://davidloman.net/categories/%E6%9D%82%E8%B0%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[搭建便捷的开发环境]]></title>
+    <link href="http://davidloman.net/2014/10/13/%E6%90%AD%E5%BB%BA%E4%BE%BF%E6%8D%B7%E7%9A%84%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
+    <id>http://davidloman.net/2014/10/13/搭建便捷的开发环境/</id>
+    <published>2014-10-13T05:14:33.000Z</published>
+    <updated>2015-07-23T06:48:18.310Z</updated>
+    <content type="html"><![CDATA[<p>经过几天的摸索，终于让自己的电脑换了一个环境了。在此之前，界面一直是单调的白框黑字。现在几乎把所有的软件都换成黑底了，真是太完美了。连桌面也换了，也是黑色的壁纸，连一个图标都没有。常用的软件就用快捷键来打开，顿时感觉爽爆了。其它的操作写成了批处理，感觉不是一般的舒服。(本文面向Window系统)<br><a id="more"></a><br>很早的时候用Eclipse来学习Java，那时感觉这个IDE挺好的，基本的功能都有。而后想要学Android的时候就发现了Android开发也是基于Eclipse的，于是就搭建了一个基于Eclipse的Android开发环境。然后用过一段时间后，就不得不吐槽这货的臃肿，开启那个慢，开了半屏红，开完一片卡……         </p>
+<p>假期的时候获得了一次远程兼职的机会，那边的公司要求用Maven管理工程，可是在Eclipse下无论怎么用都是很坑很坑，于是抱着无奈的心态转战Android studio了，然后就在打开Android studio的一瞬间，我就热血沸腾了。这个IDE真是炫酷，狂拽……过了不久默默的把Eclipse删掉了。Android studio如果谷歌的所有产品一样，让你有一种想见恨晚的感觉。你会在使用时发出这样也行的感叹，至少，Android studio就是这样的。在Eclipse上写layout的时候，总是得边写边切换着看看布局是不是合乎预期，不过现在这样的事情根本就无需去做了。这是一种很大的解放，毕竟，手就不必一直放在鼠标上了。这样让你惊喜的功能还有很多，大家还是自己体会吧。关键是如何安装Android studio?</p>
+<h3 id="Android_studio安装">Android studio安装</h3><p>安装Android studio还是挺简单的。关键在于，GOOGLE被强了，所以，你无法顺畅的访问Android开发中心，获取安装文件。不过好在程序员们都是热爱分享的一群人，所以。目前不会翻墙的同学可以通过这个网站获得安装包。我会告诉你我都是翻墙的吗？用那个router，绝对便捷。（我都想给开发者捐款了，就是google play上没有这个选项）<br>Android Studio中文组：</p>
+<blockquote>
+<p><a href="http://www.android-studio.org/" target="_blank" rel="external">下载Android studio</a>   </p>
+</blockquote>
+<p>Android 开发者中心：</p>
+<blockquote>
+<p><a href="https://developer.android.com/sdk/installing/studio.html" target="_blank" rel="external">下载Android studio</a></p>
+</blockquote>
+<p>安装的话，直接一路确定就可以了。Android studio需要JDK的支持，所以请在安装前配置好JDK，如果之前用过Eclipse的话，就直接安装就可以了。如果没有的话，需要在环境变量里加入”JAVA_HOME”相关的配置可以看这里：</p>
+<blockquote>
+<p><a href="http://blog.csdn.net/davidloman/article/details/17207687" target="_blank" rel="external">环境变量配置</a></p>
+</blockquote>
+<p>这样你就拥有了一个Android开发环境了，是不是比Eclipse简单多了。</p>
+<h3 id="Markdown编辑器">Markdown编辑器</h3><p>在接触github后一直困扰我的问题不是怎么学习git的指令，而是大家的readme界面是怎么做出来的。git上说支持”.md”与”.txt”格式，所以我就一直默默的用着notepad++写着txt文件上传。（多么无知的少年）直到后来直到了”.md”是Markdown文档，然后就用上了Markdown了，因为简直太方便了。以前写博客的时候，还要去修改标题格式，现在来个”#”就是标题，”#”越多就说明这个标题的级数越大，来个” ` “就可以学程序，比如这样：       </p>
+<pre><code class="java"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">show</span><span class="params">()</span></span>{
+    system.out.println(<span class="string">"Hello Android"</span>);
+}
+</code></pre>
+<p>当然好是好，不过手头上没有个编辑器，就看不到最后呈现的效果了。所以在此之前都是push到github上，然后再修改，再push。太麻烦！昨天正好找了一下，找到一Windows下的Markdown编辑器。下载地址如下：</p>
+<blockquote>
+<p><a href="http://markdownpad.com/" target="_blank" rel="external">MarkdownPad</a></p>
+</blockquote>
+<p>官网上就有下载的提示，个人用的是free的。安装后<strong>选为我安装</strong>如果你的系统是win7的话。而如果你的账号是系统管理员就是那个<strong>Administrtor</strong>的话，就可以选<strong>为所有用户安装</strong>，安装的时候可能进度条会卡住不动，耐心等待就可以了。这样，就不用等到push之后才知道页面是什么样的了。</p>
+<h3 id="Git工具">Git工具</h3><p>windows就是麻烦，什么也没有。。。用惯了Ubuntu的虚拟控制台，再来打开cmd，那感觉就是一夜回到了解放前，累觉不爱。你看连个Git都没法安装，不过还好Git提供了Windows的管理软件。个人用的是这个msysgit：</p>
+<blockquote>
+<p><a href="http://msysgit.github.io/" target="_blank" rel="external">msysgit</a></p>
+</blockquote>
+<p>对于初学者的话，它提供了图形化的操作界面。非常方便便捷（无脑），总要的在于它提供了一个基于<strong>Liunx</strong>的控制台，可以轻松的使用那些你常用的Liunx指令。所以对git也是分分钟的事。</p>
+<h3 id="文本编辑器">文本编辑器</h3><p>在网上有许多的大神会告诉你，不要用Windows自带的记事本，是有原因的。而这个原因很简单，就是编码的问题。这样的问题还出现在WPS和Windows Office上。这两者的ppt经常出现乱码的问题。稍稍有经验的人就会知道这是编码的问题。可是小白们可能就会以为这是文件坏掉了……（坑）所以用windows的记事本也是一样的，你可以在windwos下打开并很好的展现，并不意味着你可以跨过这个那个平台。首先，你就不一定能跨过面前的那张互联网。大神们吐槽记事本的原因就是这货采用的编码是windows的utf-8之无BOM……而它与大名鼎鼎的utf-8是有区别的。所以就容易悲剧了。因此选择一个好的文本编辑器势在必行。个人选择的是notepad++，选择的原因是这只蜥蜴挺可爱的嘛！</p>
+<blockquote>
+<p><a href="http://notepad-plus-plus.org/download/v6.6.9.html" target="_blank" rel="external">notepad++</a></p>
+</blockquote>
+<p>这就是我目前的开发工具了，当然日常上网Chrome是必备的，Chrome有许多的应用也是相当实用的。另外，还有抓包的工具，C++的IDE等，就不介绍了，现在不是太常用。想了解的可以自行百度。</p>
+<p>抓包用的是<strong>wireshake</strong><br>C++的IDE是当时老师推荐的<strong>Code::block</strong>开平台支持挺不错的。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>经过几天的摸索，终于让自己的电脑换了一个环境了。在此之前，界面一直是单调的白框黑字。现在几乎把所有的软件都换成黑底了，真是太完美了。连桌面也换了，也是黑色的壁纸，连一个图标都没有。常用的软件就用快捷键来打开，顿时感觉爽爆了。其它的操作写成了批处理，感觉不是一般的舒服。(本文面向Window系统)<br>]]>
+    
+    </summary>
+    
+      <category term="Android studio" scheme="http://davidloman.net/tags/Android-studio/"/>
+    
+      <category term="Makedown" scheme="http://davidloman.net/tags/Makedown/"/>
+    
+      <category term="便捷" scheme="http://davidloman.net/tags/%E4%BE%BF%E6%8D%B7/"/>
+    
+      <category term="开发" scheme="http://davidloman.net/tags/%E5%BC%80%E5%8F%91/"/>
+    
+      <category term="Android开发" scheme="http://davidloman.net/categories/Android%E5%BC%80%E5%8F%91/"/>
+    
+  </entry>
+  
+</feed>

@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="generator" content="Polymer Starter Kit" />
+        <title>搭建便捷的开发环境 | David Loman</title>
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- Chrome for Android theme color -->
+        <meta name="theme-color" content="#303F9F">
+        <!-- Web Application Manifest -->
+        <link rel="manifest" href="manifest.json">
+        <!-- Tile color for Win8 -->
+        <meta name="msapplication-TileColor" content="#3372DF">
+        <!-- Add to homescreen for Chrome on Android -->
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="application-name" content="David Loman">
+        <link rel="icon" sizes="192x192" href="">
+        <!-- Add to homescreen for Safari on iOS -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="David Loman">
+        <link rel="apple-touch-icon" href="">
+        <!-- Tile icon for Win8 (144x144) -->
+        <meta name="msapplication-TileImage" content="">
+        <!-- rss -->
+        
+        <link rel="alternative" href="/atom.xml" title="David Loman" type="application/atom+xml">
+        
+        <!-- favicon -->
+        
+        <link rel="icon" href="/favicon.ico">
+        
+        <link rel="stylesheet" href="/css/github-markdown.css" type="text/css">
+        <link rel="stylesheet" href="/css/highlight.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+        <script src="/polymer/webcomponentsjs/webcomponents-lite.js" type="text/javascript"></script>
+        <link rel="import" href="/elements/elements.html">
+    </head>
+
+
+<style is="custom-style">
+
+  paper-scroll-header-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--paper-grey-200, #eee);
+
+    /* background for toolbar when it is at its full size */
+    --paper-scroll-header-panel-full-header: {
+      background-image: url( / );
+    };
+
+    /* background for toolbar when it is condensed */
+    --paper-scroll-header-panel-condensed-header: {
+      /*background-color: var(--paper-deep-orange-500, #ff5722);*/
+      background-color: #3F51B5;
+    };
+  }
+
+
+
+</style>
+
+<body unresolved class="fullbleed layout vertical">
+  <template is="dom-bind" id="app">
+
+    <paper-drawer-panel id="paperDrawerPanel">
+
+       <div drawer>
+	<!-- Drawer Toolbar -->
+	<paper-toolbar class="tall" id="drawerToolbar">
+	  <div class="bottom title">
+	  	<span class="paper-font-title"> David Loman </span>
+	  </div>
+	</paper-toolbar>
+
+	<!-- Drawer Content -->
+	<paper-menu class="list" attr-for-selected="data-route"  on-iron-select="onMenuSelect">
+
+	  
+	    <a href="/">
+	        <iron-icon icon="home"></iron-icon>
+	        <span>Home</span>
+	    </a>
+	  
+	    <a href="/archives">
+	        <iron-icon icon="archive"></iron-icon>
+	        <span>Archives</span>
+	    </a>
+	  
+	    <a href="/about">
+	        <iron-icon icon="info"></iron-icon>
+	        <span>About</span>
+	    </a>
+	  
+	    <a href="/atom.xml">
+	        <iron-icon icon="bookmark"></iron-icon>
+	        <span>RSS</span>
+	    </a>
+	  
+	 
+	</paper-menu>
+</div>
+
+      <paper-header-panel main mode="waterfall-tall">
+
+         <paper-scroll-header-panel condenses>
+
+          <paper-toolbar class="tall" id="mainToolbar">
+
+  <!-- index -->
+  
+  	<paper-icon-button icon="arrow-back" onclick="back(event)"></paper-icon-button>
+  
+
+  <div class="flex"></div>
+  <!-- <paper-icon-button icon="search"></paper-icon-button> -->
+
+  <!-- Application sub title -->
+  <!-- index -->
+  
+	  <div class="bottom title"> 搭建便捷的开发环境 </div>
+  
+  
+</paper-toolbar>
+
+<!-- Main Content -->
+<div class="content">
+
+  <!-- index -->
+  
+    <paper-material class="markdown-body">
+      <p><p>经过几天的摸索，终于让自己的电脑换了一个环境了。在此之前，界面一直是单调的白框黑字。现在几乎把所有的软件都换成黑底了，真是太完美了。连桌面也换了，也是黑色的壁纸，连一个图标都没有。常用的软件就用快捷键来打开，顿时感觉爽爆了。其它的操作写成了批处理，感觉不是一般的舒服。(本文面向Window系统)<br><a id="more"></a><br>很早的时候用Eclipse来学习Java，那时感觉这个IDE挺好的，基本的功能都有。而后想要学Android的时候就发现了Android开发也是基于Eclipse的，于是就搭建了一个基于Eclipse的Android开发环境。然后用过一段时间后，就不得不吐槽这货的臃肿，开启那个慢，开了半屏红，开完一片卡……         </p>
+<p>假期的时候获得了一次远程兼职的机会，那边的公司要求用Maven管理工程，可是在Eclipse下无论怎么用都是很坑很坑，于是抱着无奈的心态转战Android studio了，然后就在打开Android studio的一瞬间，我就热血沸腾了。这个IDE真是炫酷，狂拽……过了不久默默的把Eclipse删掉了。Android studio如果谷歌的所有产品一样，让你有一种想见恨晚的感觉。你会在使用时发出这样也行的感叹，至少，Android studio就是这样的。在Eclipse上写layout的时候，总是得边写边切换着看看布局是不是合乎预期，不过现在这样的事情根本就无需去做了。这是一种很大的解放，毕竟，手就不必一直放在鼠标上了。这样让你惊喜的功能还有很多，大家还是自己体会吧。关键是如何安装Android studio?</p>
+<h3 id="Android_studio安装">Android studio安装</h3><p>安装Android studio还是挺简单的。关键在于，GOOGLE被强了，所以，你无法顺畅的访问Android开发中心，获取安装文件。不过好在程序员们都是热爱分享的一群人，所以。目前不会翻墙的同学可以通过这个网站获得安装包。我会告诉你我都是翻墙的吗？用那个router，绝对便捷。（我都想给开发者捐款了，就是google play上没有这个选项）<br>Android Studio中文组：</p>
+<blockquote>
+<p><a href="http://www.android-studio.org/" target="_blank" rel="external">下载Android studio</a>   </p>
+</blockquote>
+<p>Android 开发者中心：</p>
+<blockquote>
+<p><a href="https://developer.android.com/sdk/installing/studio.html" target="_blank" rel="external">下载Android studio</a></p>
+</blockquote>
+<p>安装的话，直接一路确定就可以了。Android studio需要JDK的支持，所以请在安装前配置好JDK，如果之前用过Eclipse的话，就直接安装就可以了。如果没有的话，需要在环境变量里加入”JAVA_HOME”相关的配置可以看这里：</p>
+<blockquote>
+<p><a href="http://blog.csdn.net/davidloman/article/details/17207687" target="_blank" rel="external">环境变量配置</a></p>
+</blockquote>
+<p>这样你就拥有了一个Android开发环境了，是不是比Eclipse简单多了。</p>
+<h3 id="Markdown编辑器">Markdown编辑器</h3><p>在接触github后一直困扰我的问题不是怎么学习git的指令，而是大家的readme界面是怎么做出来的。git上说支持”.md”与”.txt”格式，所以我就一直默默的用着notepad++写着txt文件上传。（多么无知的少年）直到后来直到了”.md”是Markdown文档，然后就用上了Markdown了，因为简直太方便了。以前写博客的时候，还要去修改标题格式，现在来个”#”就是标题，”#”越多就说明这个标题的级数越大，来个” ` “就可以学程序，比如这样：       </p>
+<pre><code class="java"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">show</span><span class="params">()</span></span>{
+    system.out.println(<span class="string">"Hello Android"</span>);
+}
+</code></pre>
+<p>当然好是好，不过手头上没有个编辑器，就看不到最后呈现的效果了。所以在此之前都是push到github上，然后再修改，再push。太麻烦！昨天正好找了一下，找到一Windows下的Markdown编辑器。下载地址如下：</p>
+<blockquote>
+<p><a href="http://markdownpad.com/" target="_blank" rel="external">MarkdownPad</a></p>
+</blockquote>
+<p>官网上就有下载的提示，个人用的是free的。安装后<strong>选为我安装</strong>如果你的系统是win7的话。而如果你的账号是系统管理员就是那个<strong>Administrtor</strong>的话，就可以选<strong>为所有用户安装</strong>，安装的时候可能进度条会卡住不动，耐心等待就可以了。这样，就不用等到push之后才知道页面是什么样的了。</p>
+<h3 id="Git工具">Git工具</h3><p>windows就是麻烦，什么也没有。。。用惯了Ubuntu的虚拟控制台，再来打开cmd，那感觉就是一夜回到了解放前，累觉不爱。你看连个Git都没法安装，不过还好Git提供了Windows的管理软件。个人用的是这个msysgit：</p>
+<blockquote>
+<p><a href="http://msysgit.github.io/" target="_blank" rel="external">msysgit</a></p>
+</blockquote>
+<p>对于初学者的话，它提供了图形化的操作界面。非常方便便捷（无脑），总要的在于它提供了一个基于<strong>Liunx</strong>的控制台，可以轻松的使用那些你常用的Liunx指令。所以对git也是分分钟的事。</p>
+<h3 id="文本编辑器">文本编辑器</h3><p>在网上有许多的大神会告诉你，不要用Windows自带的记事本，是有原因的。而这个原因很简单，就是编码的问题。这样的问题还出现在WPS和Windows Office上。这两者的ppt经常出现乱码的问题。稍稍有经验的人就会知道这是编码的问题。可是小白们可能就会以为这是文件坏掉了……（坑）所以用windows的记事本也是一样的，你可以在windwos下打开并很好的展现，并不意味着你可以跨过这个那个平台。首先，你就不一定能跨过面前的那张互联网。大神们吐槽记事本的原因就是这货采用的编码是windows的utf-8之无BOM……而它与大名鼎鼎的utf-8是有区别的。所以就容易悲剧了。因此选择一个好的文本编辑器势在必行。个人选择的是notepad++，选择的原因是这只蜥蜴挺可爱的嘛！</p>
+<blockquote>
+<p><a href="http://notepad-plus-plus.org/download/v6.6.9.html" target="_blank" rel="external">notepad++</a></p>
+</blockquote>
+<p>这就是我目前的开发工具了，当然日常上网Chrome是必备的，Chrome有许多的应用也是相当实用的。另外，还有抓包的工具，C++的IDE等，就不介绍了，现在不是太常用。想了解的可以自行百度。</p>
+<p>抓包用的是<strong>wireshake</strong><br>C++的IDE是当时老师推荐的<strong>Code::block</strong>开平台支持挺不错的。</p>
+</p>
+    </paper-material>
+	  <paper-material>
+      
+  
+   <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="_posts/搭建便捷的开发环境.md" data-title="搭建便捷的开发环境" data-url="http://davidloman.net/2014/10/13/搭建便捷的开发环境/"></div>
+    <!-- 多说评论框 end -->
+   <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:'david-loman'};
+      (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+      })();
+      </script>
+    <!-- 多说公共JS代码 end -->
+  
+
+
+		</paper-material>
+  
+
+  <!-- pagination -->
+  
+
+  
+<footer>
+	<p>由 <a href="https://hexo.io">hexo</a> 强力驱动 | 搭载 <a href="https://github.com/wayou/hexo-theme-polymer">polymer</a> 主题 </p>
+	<p>&copy;2015 David Loman </p>
+</footer>
+
+<script src="/js/main.js" type="text/javascript"></script>
+
+<!-- 百度统计 -->
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?ce7cd801f1e0b109bf86e2a11e97eb6a";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<!-- 谷歌统计 -->
+
+
+</div>
+
+
+
+
+
+
+        </paper-scroll-header-panel>
+
+      </paper-header-panel>
+
+    </paper-drawer-panel>
+
+  </template>
+
+</body>
+
+</html>

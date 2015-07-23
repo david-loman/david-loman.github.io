@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="generator" content="Polymer Starter Kit" />
+        <title>如何成为一个程序员 | David Loman</title>
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- Chrome for Android theme color -->
+        <meta name="theme-color" content="#303F9F">
+        <!-- Web Application Manifest -->
+        <link rel="manifest" href="manifest.json">
+        <!-- Tile color for Win8 -->
+        <meta name="msapplication-TileColor" content="#3372DF">
+        <!-- Add to homescreen for Chrome on Android -->
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="application-name" content="David Loman">
+        <link rel="icon" sizes="192x192" href="">
+        <!-- Add to homescreen for Safari on iOS -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="David Loman">
+        <link rel="apple-touch-icon" href="">
+        <!-- Tile icon for Win8 (144x144) -->
+        <meta name="msapplication-TileImage" content="">
+        <!-- rss -->
+        
+        <link rel="alternative" href="/atom.xml" title="David Loman" type="application/atom+xml">
+        
+        <!-- favicon -->
+        
+        <link rel="icon" href="/favicon.ico">
+        
+        <link rel="stylesheet" href="/css/github-markdown.css" type="text/css">
+        <link rel="stylesheet" href="/css/highlight.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+        <script src="/polymer/webcomponentsjs/webcomponents-lite.js" type="text/javascript"></script>
+        <link rel="import" href="/elements/elements.html">
+    </head>
+
+
+<style is="custom-style">
+
+  paper-scroll-header-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--paper-grey-200, #eee);
+
+    /* background for toolbar when it is at its full size */
+    --paper-scroll-header-panel-full-header: {
+      background-image: url( / );
+    };
+
+    /* background for toolbar when it is condensed */
+    --paper-scroll-header-panel-condensed-header: {
+      /*background-color: var(--paper-deep-orange-500, #ff5722);*/
+      background-color: #3F51B5;
+    };
+  }
+
+
+
+</style>
+
+<body unresolved class="fullbleed layout vertical">
+  <template is="dom-bind" id="app">
+
+    <paper-drawer-panel id="paperDrawerPanel">
+
+       <div drawer>
+	<!-- Drawer Toolbar -->
+	<paper-toolbar class="tall" id="drawerToolbar">
+	  <div class="bottom title">
+	  	<span class="paper-font-title"> David Loman </span>
+	  </div>
+	</paper-toolbar>
+
+	<!-- Drawer Content -->
+	<paper-menu class="list" attr-for-selected="data-route"  on-iron-select="onMenuSelect">
+
+	  
+	    <a href="/">
+	        <iron-icon icon="home"></iron-icon>
+	        <span>Home</span>
+	    </a>
+	  
+	    <a href="/archives">
+	        <iron-icon icon="archive"></iron-icon>
+	        <span>Archives</span>
+	    </a>
+	  
+	    <a href="/about">
+	        <iron-icon icon="info"></iron-icon>
+	        <span>About</span>
+	    </a>
+	  
+	    <a href="/atom.xml">
+	        <iron-icon icon="bookmark"></iron-icon>
+	        <span>RSS</span>
+	    </a>
+	  
+	 
+	</paper-menu>
+</div>
+
+      <paper-header-panel main mode="waterfall-tall">
+
+         <paper-scroll-header-panel condenses>
+
+          <paper-toolbar class="tall" id="mainToolbar">
+
+  <!-- index -->
+  
+  	<paper-icon-button icon="arrow-back" onclick="back(event)"></paper-icon-button>
+  
+
+  <div class="flex"></div>
+  <!-- <paper-icon-button icon="search"></paper-icon-button> -->
+
+  <!-- Application sub title -->
+  <!-- index -->
+  
+	  <div class="bottom title"> 如何成为一个程序员 </div>
+  
+  
+</paper-toolbar>
+
+<!-- Main Content -->
+<div class="content">
+
+  <!-- index -->
+  
+    <paper-material class="markdown-body">
+      <p><p>如果你想成为一个程序员，一个软件工程师的话，你应该付出一些努力，也许你对此不是很了解，我仅仅只能从我这些年自己学习，开发中的经验来总结出一些具有参考性的建议。在这里我不会告诉你应该怎么做怎么做，因为我并不了解你，我只能告诉你，这样做是有益的，而且你会从中收获许多。<br><a id="more"></a></p>
+<h2 id="一本专业的工具书">一本专业的工具书</h2><p>无论你要使用何种语言来编程，一本详细的介绍这门语言的书籍是必不可少的。你肯定也会通过网络来学习，因为对于编程的人来说，网络上的资源实在是太多了。不过无论如何，请你一定要有一本在离线的时候你能翻看的专业书籍。它可以是电子书，也可以是纸质书籍。因为首先，如果你对一个问题不了解，可能你仅仅是不了解这个问题，但也有一种可能，就是你对这方面的知识掌握得不够。通过网络你可能能够很快的解决这个问题，但是也有可能你会忽略了你的知识存在漏洞，这是十分可怕的事情。而专业的书籍往往能够用一种全面的眼光来向你解释相关的问题，通过这样的书籍，你可以轻松的发现自己再次之前所没有思考到的方面，并且作出调整。同时，在离线下能够使用也保障了你的问题能够在第一时间得到解决，特别是网络不好的情况。虽然在现在这看起来好像不太现实，可是生活当中处处充满意外，谁又能保证呢？当然，你如何知道或者选择这样的工具书呢？网络是一个很好的工具，你可以从网络上找到答案的。作为一个程序员，通过网络寻找答案或者是了解某个问题，这是一项必须的技能。最简单的，比如如何翻墙。</p>
+<h2 id="投入社区的怀抱">投入社区的怀抱</h2><p>一个人的学习是很辛苦的，所以你需要寻找相应的群体。在群体中， 你能得到的不仅仅是摆脱孤独感，更重要的是你能够学习到一些自己一个人学习时所注意不到的。俗话说：“三人行必有我师”。你应该在网络上寻找相应的社区，比如如果你与我一样，从事Android开发，那么你就应该了解eoe论坛，或者在某个Android开发群中。如果你不知道有哪些社区，你可以百度或者google，或者你可以在官网上看到相应的信息。当然，有一些大众的社区你也应当知道。这对你寻找到社区也是十分有效的，就我目前所知，以下几个网站都是不错的选择。它们都能为你解答许多编程中遇到的问题，甚至是结交朋友。</p>
+<ul>
+<li>国内：<br>知名问答网站：<a href="http://www.zhihu.com/" target="_blank" rel="external">知乎</a></li>
+<li>国外：<br>国际版知乎：<a href="http://www.quora.com/" target="_blank" rel="external">Quora</a><br>程序员版知乎：<a href="http://stackoverflow.com/" target="_blank" rel="external">Stackoverflow</a><br>程序员之家：<a href="https://github.com/" target="_blank" rel="external">Github</a></li>
+</ul>
+<h2 id="不断的编码">不断的编码</h2><p>古人云：“勤能补拙是良训”。身为一个程序员最需要的就是“勤劳”，这种勤劳是对自己编码的勤劳，而非编码时的勤劳。恰恰相反，当你编写代码时你应该懒惰，应该追求更短，更精炼。但是，你要有勤劳的习惯，勤劳的写代码，不断的写。编程是一件很特别的事情，它的真理在运行的时候会变得清晰无比。所以不断的编码是你提升技能的最好途径。如果你相对一个问题有一个充分的认识，你只需编码就可以了。和其它的学科不同，编程这件事情，如果在你运行之后，就能知道事情是否像你所想的那样了。通过不断的编码，你会发现很多自己之前没有注意到的点和许许多多的错误。而编程这件事情，就是你遇到的错误越多，你的功力就越高深。因为调试错误与查找错误的原因，会让你学习到很多知识。同时，不断的编程也能使你了解程序的框架，这一点很重要，特别是学会手写代码，而非机写。</p>
+<h2 id="提升英语水平">提升英语水平</h2><p>如果你确实要成为一个程序员，那么英文的能力将是你必须要有的技能。因为大部分先进的文档都是英文格式的;许多好的教学视频都是英文的;官方的最新发布都是英文的。如果你没有英文能力，你就如同失去眼睛与耳朵一样，这会成为你未来发展的一个障碍。所以，你最好努力提升自己的英文能力。至于英语对于一个程序员来说有多么重要，你可以看看别人如何命名其函数的，你就会发现英文的重要性。另外提升你的英文能力能够给你一个新的视野，你可以因此结识更多人，交更多的朋友。</p>
+<h2 id="一个女朋友">一个女朋友</h2><p>如果你是个男的，你最成为了程序员中的土豪程序员。如果你是个女的，那么你也不必为你的婚姻大事烦恼。对于一个男程序员，为了你的终生大事着想，你最好最好找一个女朋友，如果你有一个女朋友，请好好珍惜你的女朋友。</p>
+</p>
+    </paper-material>
+	  <paper-material>
+      
+  
+   <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="_posts/如何成为一个程序员.md" data-title="如何成为一个程序员" data-url="http://davidloman.net/2014/12/11/如何成为一个程序员/"></div>
+    <!-- 多说评论框 end -->
+   <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:'david-loman'};
+      (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+      })();
+      </script>
+    <!-- 多说公共JS代码 end -->
+  
+
+
+		</paper-material>
+  
+
+  <!-- pagination -->
+  
+
+  
+<footer>
+	<p>由 <a href="https://hexo.io">hexo</a> 强力驱动 | 搭载 <a href="https://github.com/wayou/hexo-theme-polymer">polymer</a> 主题 </p>
+	<p>&copy;2015 David Loman </p>
+</footer>
+
+<script src="/js/main.js" type="text/javascript"></script>
+
+<!-- 百度统计 -->
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?ce7cd801f1e0b109bf86e2a11e97eb6a";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<!-- 谷歌统计 -->
+
+
+</div>
+
+
+
+
+
+
+        </paper-scroll-header-panel>
+
+      </paper-header-panel>
+
+    </paper-drawer-panel>
+
+  </template>
+
+</body>
+
+</html>

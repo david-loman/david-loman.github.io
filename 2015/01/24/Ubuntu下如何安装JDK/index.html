@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="generator" content="Polymer Starter Kit" />
+        <title>Ubuntu下如何安装JDK | David Loman</title>
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- Chrome for Android theme color -->
+        <meta name="theme-color" content="#303F9F">
+        <!-- Web Application Manifest -->
+        <link rel="manifest" href="manifest.json">
+        <!-- Tile color for Win8 -->
+        <meta name="msapplication-TileColor" content="#3372DF">
+        <!-- Add to homescreen for Chrome on Android -->
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="application-name" content="David Loman">
+        <link rel="icon" sizes="192x192" href="">
+        <!-- Add to homescreen for Safari on iOS -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="David Loman">
+        <link rel="apple-touch-icon" href="">
+        <!-- Tile icon for Win8 (144x144) -->
+        <meta name="msapplication-TileImage" content="">
+        <!-- rss -->
+        
+        <link rel="alternative" href="/atom.xml" title="David Loman" type="application/atom+xml">
+        
+        <!-- favicon -->
+        
+        <link rel="icon" href="/favicon.ico">
+        
+        <link rel="stylesheet" href="/css/github-markdown.css" type="text/css">
+        <link rel="stylesheet" href="/css/highlight.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+        <script src="/polymer/webcomponentsjs/webcomponents-lite.js" type="text/javascript"></script>
+        <link rel="import" href="/elements/elements.html">
+    </head>
+
+
+<style is="custom-style">
+
+  paper-scroll-header-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--paper-grey-200, #eee);
+
+    /* background for toolbar when it is at its full size */
+    --paper-scroll-header-panel-full-header: {
+      background-image: url( / );
+    };
+
+    /* background for toolbar when it is condensed */
+    --paper-scroll-header-panel-condensed-header: {
+      /*background-color: var(--paper-deep-orange-500, #ff5722);*/
+      background-color: #3F51B5;
+    };
+  }
+
+
+
+</style>
+
+<body unresolved class="fullbleed layout vertical">
+  <template is="dom-bind" id="app">
+
+    <paper-drawer-panel id="paperDrawerPanel">
+
+       <div drawer>
+	<!-- Drawer Toolbar -->
+	<paper-toolbar class="tall" id="drawerToolbar">
+	  <div class="bottom title">
+	  	<span class="paper-font-title"> David Loman </span>
+	  </div>
+	</paper-toolbar>
+
+	<!-- Drawer Content -->
+	<paper-menu class="list" attr-for-selected="data-route"  on-iron-select="onMenuSelect">
+
+	  
+	    <a href="/">
+	        <iron-icon icon="home"></iron-icon>
+	        <span>Home</span>
+	    </a>
+	  
+	    <a href="/archives">
+	        <iron-icon icon="archive"></iron-icon>
+	        <span>Archives</span>
+	    </a>
+	  
+	    <a href="/about">
+	        <iron-icon icon="info"></iron-icon>
+	        <span>About</span>
+	    </a>
+	  
+	    <a href="/atom.xml">
+	        <iron-icon icon="bookmark"></iron-icon>
+	        <span>RSS</span>
+	    </a>
+	  
+	 
+	</paper-menu>
+</div>
+
+      <paper-header-panel main mode="waterfall-tall">
+
+         <paper-scroll-header-panel condenses>
+
+          <paper-toolbar class="tall" id="mainToolbar">
+
+  <!-- index -->
+  
+  	<paper-icon-button icon="arrow-back" onclick="back(event)"></paper-icon-button>
+  
+
+  <div class="flex"></div>
+  <!-- <paper-icon-button icon="search"></paper-icon-button> -->
+
+  <!-- Application sub title -->
+  <!-- index -->
+  
+	  <div class="bottom title"> Ubuntu下如何安装JDK </div>
+  
+  
+</paper-toolbar>
+
+<!-- Main Content -->
+<div class="content">
+
+  <!-- index -->
+  
+    <paper-material class="markdown-body">
+      <p><p>最近把系统整残了，不得不重新安装了一遍，然后又把JDK安装了一次，在此分享给大家。<br><a id="more"></a></p>
+<h3 id="安装准备">安装准备</h3><p>在你安装JDK之前，你需要下载JDK，你可以从这个网址下载：<a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank" rel="external">JDK1.8</a><br>如果你的系统是32位的选x86，如果是64的选64。选择格式是 *.tar.gz 的包下载。</p>
+<h3 id="安装">安装</h3><p>将下载下来的包解压，可以找到文件，直接右键<em>提取到</em>解压文件，也可以在命令行中通过如下命令解压：<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar xvzf JDK_NAME.tar.gz</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li>JDK_NAME为你下载后文件的前缀。   </li>
+<li>如果在解压的过程中出现问题多半是安装包下载的时候损坏了，重新下载就可以了。</li>
+</ul>
+<p>而后需要把文件放到 /usr 目录下防止意外情况的发生。通过命令行来执行：<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo cp -r MY_JDK /usr/</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li>MY_JDK为你解压后生成的那个文件夹的名称。</li>
+</ul>
+<h3 id="配置JDK">配置JDK</h3><p>安装完JDK后应该配置好其环境变量，这样才能够使用。一般来说需要配置这三个环境变量：PATH ， CLASSPATH ， JAVA_HOME 。<br>可以直接通过命令行来配置：<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo gedit /etc/environment</span><br></pre></td></tr></table></figure></p>
+<p>在文件的PATH中添加： :/usr/jdk1.8.0_31/bin:/usr/jdk1.8.0_31/jre/bin<br>然后<br>添加CLASSPATH与JAVA_HOME。如下：<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">PATH=&#34;/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/jdk1.8.0_31/bin:/usr/jdk1.8.0_31/jre/bin:~/bin&#34;&#10;JAVA_HOME=&#34;/usr/jdk1.8.0_31&#34;&#10;CLASSPATH=&#34;/usr/jdk1.8.0_31/lib:/usr/jdk1.8.0_31/lib/tools.jar&#34;</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li>我把JDK放在了 /usr 目录下。</li>
+</ul>
+<h3 id="检查">检查</h3><p>我们需要把系统重启一下，或者注销账户，然后再检查是否安装完成。    </p>
+<p>可以通过如下命令来检查JDK是否安装好了：<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">javac</span><br></pre></td></tr></table></figure></p>
+<p>如果你执行后会看到关于如何使用javac的信息，就说明 java 已经安装好了。如果提示没有找到javac这个命令就是安装失败。</p>
+</p>
+    </paper-material>
+	  <paper-material>
+      
+  
+   <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="_posts/Ubuntu下如何安装JDK.md" data-title="Ubuntu下如何安装JDK" data-url="http://davidloman.net/2015/01/24/Ubuntu下如何安装JDK/"></div>
+    <!-- 多说评论框 end -->
+   <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:'david-loman'};
+      (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+      })();
+      </script>
+    <!-- 多说公共JS代码 end -->
+  
+
+
+		</paper-material>
+  
+
+  <!-- pagination -->
+  
+
+  
+<footer>
+	<p>由 <a href="https://hexo.io">hexo</a> 强力驱动 | 搭载 <a href="https://github.com/wayou/hexo-theme-polymer">polymer</a> 主题 </p>
+	<p>&copy;2015 David Loman </p>
+</footer>
+
+<script src="/js/main.js" type="text/javascript"></script>
+
+<!-- 百度统计 -->
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?ce7cd801f1e0b109bf86e2a11e97eb6a";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<!-- 谷歌统计 -->
+
+
+</div>
+
+
+
+
+
+
+        </paper-scroll-header-panel>
+
+      </paper-header-panel>
+
+    </paper-drawer-panel>
+
+  </template>
+
+</body>
+
+</html>

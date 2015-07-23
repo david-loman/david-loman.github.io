@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="generator" content="Polymer Starter Kit" />
+        <title>Ubuntu下安装Android Studio 1.0 | David Loman</title>
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- Chrome for Android theme color -->
+        <meta name="theme-color" content="#303F9F">
+        <!-- Web Application Manifest -->
+        <link rel="manifest" href="manifest.json">
+        <!-- Tile color for Win8 -->
+        <meta name="msapplication-TileColor" content="#3372DF">
+        <!-- Add to homescreen for Chrome on Android -->
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="application-name" content="David Loman">
+        <link rel="icon" sizes="192x192" href="">
+        <!-- Add to homescreen for Safari on iOS -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="David Loman">
+        <link rel="apple-touch-icon" href="">
+        <!-- Tile icon for Win8 (144x144) -->
+        <meta name="msapplication-TileImage" content="">
+        <!-- rss -->
+        
+        <link rel="alternative" href="/atom.xml" title="David Loman" type="application/atom+xml">
+        
+        <!-- favicon -->
+        
+        <link rel="icon" href="/favicon.ico">
+        
+        <link rel="stylesheet" href="/css/github-markdown.css" type="text/css">
+        <link rel="stylesheet" href="/css/highlight.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+        <script src="/polymer/webcomponentsjs/webcomponents-lite.js" type="text/javascript"></script>
+        <link rel="import" href="/elements/elements.html">
+    </head>
+
+
+<style is="custom-style">
+
+  paper-scroll-header-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--paper-grey-200, #eee);
+
+    /* background for toolbar when it is at its full size */
+    --paper-scroll-header-panel-full-header: {
+      background-image: url( / );
+    };
+
+    /* background for toolbar when it is condensed */
+    --paper-scroll-header-panel-condensed-header: {
+      /*background-color: var(--paper-deep-orange-500, #ff5722);*/
+      background-color: #3F51B5;
+    };
+  }
+
+
+
+</style>
+
+<body unresolved class="fullbleed layout vertical">
+  <template is="dom-bind" id="app">
+
+    <paper-drawer-panel id="paperDrawerPanel">
+
+       <div drawer>
+	<!-- Drawer Toolbar -->
+	<paper-toolbar class="tall" id="drawerToolbar">
+	  <div class="bottom title">
+	  	<span class="paper-font-title"> David Loman </span>
+	  </div>
+	</paper-toolbar>
+
+	<!-- Drawer Content -->
+	<paper-menu class="list" attr-for-selected="data-route"  on-iron-select="onMenuSelect">
+
+	  
+	    <a href="/">
+	        <iron-icon icon="home"></iron-icon>
+	        <span>Home</span>
+	    </a>
+	  
+	    <a href="/archives">
+	        <iron-icon icon="archive"></iron-icon>
+	        <span>Archives</span>
+	    </a>
+	  
+	    <a href="/about">
+	        <iron-icon icon="info"></iron-icon>
+	        <span>About</span>
+	    </a>
+	  
+	    <a href="/atom.xml">
+	        <iron-icon icon="bookmark"></iron-icon>
+	        <span>RSS</span>
+	    </a>
+	  
+	 
+	</paper-menu>
+</div>
+
+      <paper-header-panel main mode="waterfall-tall">
+
+         <paper-scroll-header-panel condenses>
+
+          <paper-toolbar class="tall" id="mainToolbar">
+
+  <!-- index -->
+  
+  	<paper-icon-button icon="arrow-back" onclick="back(event)"></paper-icon-button>
+  
+
+  <div class="flex"></div>
+  <!-- <paper-icon-button icon="search"></paper-icon-button> -->
+
+  <!-- Application sub title -->
+  <!-- index -->
+  
+	  <div class="bottom title"> Ubuntu下安装Android Studio 1.0 </div>
+  
+  
+</paper-toolbar>
+
+<!-- Main Content -->
+<div class="content">
+
+  <!-- index -->
+  
+    <paper-material class="markdown-body">
+      <p><p>最近Android Studio更新了，我也把它安装完成。分享分享一下经验。<br><a id="more"></a></p>
+<h2 id="安装前的准备">安装前的准备</h2><p>在安装Android Studio之前，我们需要做一些工作。Android Studio需要 400M的空间，而SDK包需要1G的空间。请确保你的系统内有这么大的空间。同时还需要Java环境。</p>
+<h3 id="Java环境">Java环境</h3><p>Android Studio 1.0 需要JDK7或者以上。所以请确保电脑中的JDK在7以上，可以通过以下命令查看：<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">javac -version</span><br></pre></td></tr></table></figure></p>
+<p>同时，Android Studio需要JAVA_HOME这一环境变量，如果没有的话，请将以下语句添加到 <strong>/etc/profile</strong>文件末尾：<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">export JAVA_HOME=YOU_JAVA_HOME/jdk1.7.0_51</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li>YOU_JAVA_HOME为你电脑上jdk的安装路径</li>
+</ul>
+<h3 id="安装包下载">安装包下载</h3><p>由于Linux的安装包中不包含SDK包，所以你需要下载Android Studio与SDK包。如果你能够翻墙的话，可以通过官网下载：<br><a href="http://developer.android.com/intl/zh-cn/sdk/index.html" target="_blank" rel="external">Android Studio</a><br><a href="http://developer.android.com/intl/zh-cn/sdk/index.html#Other" target="_blank" rel="external">SDK包,选SDK Only</a><br>如果你无法翻墙的话，这个网站能找到相关的资源：<br><a href="http://www.androiddevtools.cn/" target="_blank" rel="external">AndroidDevTools</a> </p>
+<h2 id="安装">安装</h2><p>由于Android Studio与SDK包都是压缩包，所以解压后就可以使用的。</p>
+<h3 id="Android_Studio">Android Studio</h3><p>将下载后的Android Studio压缩包拷贝到你要存放该程序的目录下。解压：<br><img src="http://7sbmzt.com1.z0.glb.clouddn.com/updata_android_studio选区_009.png" alt="解压Android Studio"><br>你会看到多出了一个<em>android-studio</em>文件夹，这样就解压成功了。</p>
+<h3 id="SDK_包">SDK 包</h3><p>将SDK的压缩文件拷贝到刚才解压出来的<em>android-studio</em>目录下，解压：<br><img src="http://7sbmzt.com1.z0.glb.clouddn.com/updata_android_studio选区_010.png" alt="解压SDK包"><br>解压后会出现一个<em>android-sdk-linux</em>文件夹，安装完成。现在<em>android-studio</em>下的目录：<br><img src="http://7sbmzt.com1.z0.glb.clouddn.com/updata_android_studio选区_005.png" alt="目录"></p>
+<h2 id="收尾工作">收尾工作</h2><p>通过<em>android-studio</em>的<em>bin</em>目录下的<strong>studio.h</strong>文件来打开Android Studio。现在，你可以打开Android Studio了，因为我们还有一些工作要做。</p>
+<h3 id="下载SDK">下载SDK</h3><p>需要指定SDK的存放目录，就是你刚才解压出来的那个<em>android-sdk-linux</em>文件夹。同时，你需要下载SDK，主要是SDK与建造工具，下载完成：<br><img src="http://7sbmzt.com1.z0.glb.clouddn.com/updata_android_studio选区_007.png" alt="SDK下载完成"></p>
+<h3 id="下载Gradle">下载Gradle</h3><p>第一次新建工程的时候，需要下载Gradle，这需要很长的时间，请耐心等候。下载完成后你就可以使用Android Studio了。</p>
+<h2 id="其它">其它</h2><p>你已经可以使用Android Studio了，不过有一些对你有用的东西。</p>
+<h3 id="SDK无法下载">SDK无法下载</h3><p>由于墙的原因，下载Android SDK是一个很坑爹的过程，你很有可能无法下载。我们通过修改<strong>Hosts</strong>文件来解决。在<strong>/etc/hosts</strong>中添加以下三行：<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#SDK Update&#10;203.208.46.146  dl.google.com&#10;203.208.46.146  dl-ssl.google.com</span><br></pre></td></tr></table></figure></p>
+<h3 id="便捷打开Android_Studio">便捷打开Android Studio</h3><p>我们可以通过脚本打开Android Studio，你可以在<strong>/usr/bin</strong>目录下添加一个脚本。这是我写的脚本：<br><img src="http://7sbmzt.com1.z0.glb.clouddn.com/updata_android_studio选区_008.png" alt="便捷打开Android Studio"><br>这样的话，我们可以直接在命令行打开Android Studio：<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo android-studio</span><br></pre></td></tr></table></figure></p>
+</p>
+    </paper-material>
+	  <paper-material>
+      
+  
+   <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="_posts/Ubuntu下安装Android-Studio-1-0.md" data-title="Ubuntu下安装Android Studio 1.0" data-url="http://davidloman.net/2014/12/13/Ubuntu下安装Android-Studio-1-0/"></div>
+    <!-- 多说评论框 end -->
+   <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:'david-loman'};
+      (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+      })();
+      </script>
+    <!-- 多说公共JS代码 end -->
+  
+
+
+		</paper-material>
+  
+
+  <!-- pagination -->
+  
+
+  
+<footer>
+	<p>由 <a href="https://hexo.io">hexo</a> 强力驱动 | 搭载 <a href="https://github.com/wayou/hexo-theme-polymer">polymer</a> 主题 </p>
+	<p>&copy;2015 David Loman </p>
+</footer>
+
+<script src="/js/main.js" type="text/javascript"></script>
+
+<!-- 百度统计 -->
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?ce7cd801f1e0b109bf86e2a11e97eb6a";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<!-- 谷歌统计 -->
+
+
+</div>
+
+
+
+
+
+
+        </paper-scroll-header-panel>
+
+      </paper-header-panel>
+
+    </paper-drawer-panel>
+
+  </template>
+
+</body>
+
+</html>

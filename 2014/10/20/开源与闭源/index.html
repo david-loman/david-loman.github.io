@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="generator" content="Polymer Starter Kit" />
+        <title>开源与闭源 | David Loman</title>
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- Chrome for Android theme color -->
+        <meta name="theme-color" content="#303F9F">
+        <!-- Web Application Manifest -->
+        <link rel="manifest" href="manifest.json">
+        <!-- Tile color for Win8 -->
+        <meta name="msapplication-TileColor" content="#3372DF">
+        <!-- Add to homescreen for Chrome on Android -->
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="application-name" content="David Loman">
+        <link rel="icon" sizes="192x192" href="">
+        <!-- Add to homescreen for Safari on iOS -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="David Loman">
+        <link rel="apple-touch-icon" href="">
+        <!-- Tile icon for Win8 (144x144) -->
+        <meta name="msapplication-TileImage" content="">
+        <!-- rss -->
+        
+        <link rel="alternative" href="/atom.xml" title="David Loman" type="application/atom+xml">
+        
+        <!-- favicon -->
+        
+        <link rel="icon" href="/favicon.ico">
+        
+        <link rel="stylesheet" href="/css/github-markdown.css" type="text/css">
+        <link rel="stylesheet" href="/css/highlight.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+        <script src="/polymer/webcomponentsjs/webcomponents-lite.js" type="text/javascript"></script>
+        <link rel="import" href="/elements/elements.html">
+    </head>
+
+
+<style is="custom-style">
+
+  paper-scroll-header-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--paper-grey-200, #eee);
+
+    /* background for toolbar when it is at its full size */
+    --paper-scroll-header-panel-full-header: {
+      background-image: url( / );
+    };
+
+    /* background for toolbar when it is condensed */
+    --paper-scroll-header-panel-condensed-header: {
+      /*background-color: var(--paper-deep-orange-500, #ff5722);*/
+      background-color: #3F51B5;
+    };
+  }
+
+
+
+</style>
+
+<body unresolved class="fullbleed layout vertical">
+  <template is="dom-bind" id="app">
+
+    <paper-drawer-panel id="paperDrawerPanel">
+
+       <div drawer>
+	<!-- Drawer Toolbar -->
+	<paper-toolbar class="tall" id="drawerToolbar">
+	  <div class="bottom title">
+	  	<span class="paper-font-title"> David Loman </span>
+	  </div>
+	</paper-toolbar>
+
+	<!-- Drawer Content -->
+	<paper-menu class="list" attr-for-selected="data-route"  on-iron-select="onMenuSelect">
+
+	  
+	    <a href="/">
+	        <iron-icon icon="home"></iron-icon>
+	        <span>Home</span>
+	    </a>
+	  
+	    <a href="/archives">
+	        <iron-icon icon="archive"></iron-icon>
+	        <span>Archives</span>
+	    </a>
+	  
+	    <a href="/about">
+	        <iron-icon icon="info"></iron-icon>
+	        <span>About</span>
+	    </a>
+	  
+	    <a href="/atom.xml">
+	        <iron-icon icon="bookmark"></iron-icon>
+	        <span>RSS</span>
+	    </a>
+	  
+	 
+	</paper-menu>
+</div>
+
+      <paper-header-panel main mode="waterfall-tall">
+
+         <paper-scroll-header-panel condenses>
+
+          <paper-toolbar class="tall" id="mainToolbar">
+
+  <!-- index -->
+  
+  	<paper-icon-button icon="arrow-back" onclick="back(event)"></paper-icon-button>
+  
+
+  <div class="flex"></div>
+  <!-- <paper-icon-button icon="search"></paper-icon-button> -->
+
+  <!-- Application sub title -->
+  <!-- index -->
+  
+	  <div class="bottom title"> 开源与闭源 </div>
+  
+  
+</paper-toolbar>
+
+<!-- Main Content -->
+<div class="content">
+
+  <!-- index -->
+  
+    <paper-material class="markdown-body">
+      <p><p>最近受到知乎的影响，买了《大教堂与集市》来拜读，发现挺有意思的。所以把自己的点点滴滴思考记录在这里与大家分享。这是第一篇，以后应该还会有后续。因为，确实从书中学到了很多东西，或者说是认识到了之前自己遇见过的问题是怎么一回事。<br><a id="more"></a></p>
+<p>自己对于开源运动的认识来自于GNU，也就是从我打算接触Linux这一操作系统之后开始的。关于Unix与Linux的历史背景，大家可以自己去了解。我觉得是很不错的了解计算机发展历史的资料。GNU并非开源这是我后来知道的，也是GNU的提倡者：<a href="http://zh.wikipedia.org/wiki/%E7%90%86%E6%9F%A5%E5%BE%B7%C2%B7%E6%96%AF%E6%89%98%E6%9B%BC" target="_blank" rel="external"><em>Richard Stallman</em></a>自己的看法。不过我倒不认为需要把它俩区别对待，如果非要的话，无非是GNU更加激进，开源运动相对保守一点。</p>
+<h2 id="闭源的强权">闭源的强权</h2><p>在PC出现后，软件开发的过程往往通过一个精英团队来负责的。这个团队通常来说都是比较小的，因为，规模的增大会给开发带来更多的沟通障碍。所以有很多的系统都是通过小规模的精英团队来完成的，比如赫赫有名的Unix系统。同时，这也便产生了一种软件开发的模式，即大教堂模式，他们通过精英团队封闭的开发来构建一个用户喜欢的软件，微软就是这种模式的典范。这样的公司大多是闭源的，即你可以使用我的软件，但是你无法获得软件的源代码。所以它不支持个人对该软件的修改。这被证实是一条很有效果的商业话之路。然而，对于追求极致的黑客们来说这是不能接受的。因为大部分黑客都有一个习惯就是做自己想做的。他们喜欢在一个软件上，任意的修改，以完成自己想要的功能。而正是由于Unix并不提供源代码，使得<em>Richard Stallman</em>掀起GNU的大旗，喊出：<strong>GNU’s not Unix</strong>的口号。而后才有了传奇人物<a href="http://zh.wikipedia.org/wiki/%E6%9E%97%E7%BA%B3%E6%96%AF%C2%B7%E6%89%98%E7%93%A6%E5%85%B9" target="_blank" rel="external"><em>Linus Torvalds</em></a>开发出Linux成为开源的主基地的故事。然而闭源有错吗？没有。闭源使软件更具有交互性，同时也能为用户提供更多的保障（至少用户不需要每天都在网上查找问题的解决方法）。这正是闭源的优势所在，如果想了解我所说的，只需要装个双系统，一边用Winows，一边用Linux的各种发行版就行。因为对于黑客来说，解决问题，并不是一件很痛苦的事，相反有时反而能够从中获取兴奋感。而闭源是他们无法对自己所使用的软件进行修改，这是一种痛苦。所以，他们开始了开源之路。</p>
+<h2 id="开源的崛起">开源的崛起</h2><p>开源运动的兴起，从本质上来说，源自与大家对自由的追求。而他借助着Linux而得到了发展，同时通过Git这样的开源平台许多的开源项目出现了。它们秉持的是另一种思想。即把对软件的修改权限交给用户，因为，每个用户都是潜在的开发者。通过大量用户的参与，不仅可以查找到软件中的错误，还可以不断的完善软件。该思想最大的闪光点在于开发与维护了Linux内核，这归功于开源社区的贡献。而这种开发模式使得许多的项目由此而产生，我们的生活也有了更多的选择。在我写这篇文章的时候，就用了诸多的开源软件。从一个操作系统内核开始，开源软件开始覆盖生产生活的各个角落，只要你有心，你几乎能找到诸多闭源软件的开源替代品。（不过开源并不等同于免费哦）不过这并不意味着目前的开源软件已经能够胜过闭源软件了。还是从操作系统上来看，闭源的Windows依然占据着个人操作系统的大头，而Linux在个人桌面上，一直都是软肋。而且开源导致了诸多的发行版。这就是自由的结果。我们有了更多的选择，然而它阻碍了Linux整体的竞争力。这一点用在有着开源基因的Android上也是一样的。目前的Android由于开放的政策，使得用户有了更多的选择，但是对于开发者来说，这绝对是一场噩梦！这一点以后有机会再谈。</p>
+<h2 id="开源危机">开源危机</h2><p>不过所有的事情在它走向强大的同时必然也要面临着自身发展中出现的诸多问题。开源软件也是一样的。在此之前，黑客们通过协作完成了一些令人惊奇的软件，由此，许多拥有自由思想的年轻人积极的投身到了开源事业中来。但是大量的人员涌入导致了许多劣质的软件的产生。Github从开源圣地成为了许多人眼中的代码垃圾堆。当然这些并不足以撼动开源的地位，以及动摇其对闭源的优势。然而，当一些严重的问题发生在开源软件中的佼佼者身上时，其对开源软件的打击是可想而知的。在今年，有两个新闻特别引人注目。首先是著名的SSL协议爆出了“心脏出血”漏洞，而后，重要的开源工具Shell也爆出了存在被注入的漏洞。这些都是人们重新思考开源软件的信条之一的“眼睛越多，Bug越无处可逃”是否是可靠。当然笔者对此还是持乐观的态度的。其实，开源软件出现漏洞是一件好事，因为，它会促进黑客们加强对代码的检查。所以目前开源所遭遇的危机并非坏事。相反，如果能够因此产生一套对Bug进行跟踪的机制，开源的未来会更加美好。</p>
+<h2 id="展望">展望</h2><p>作为两种截然不同的编程方式，你不能说那种方式更好，而应该考虑环境的影响。对于强交互的软件，我认为闭源的开发模式可能会更加合适。毕竟，工程师们更多的情况下考虑的是代码更精简，功能更强大。对于界面与交互，可能并不是工程师的强项。比如你不能让我去给你的应用设计UI，这对我来说是陌生的。你可以让我帮你实现功能，并且将代码写到极致。所以开源适合于对于界面要求不是很多的软件中，它们更看重功能的实现。而不是界面如何炫酷，狂拽，屌炸天。所以在未来，传统的闭源公司并不会被取代，它还会存活一段时间。而开源将会触及更多的领域。我们将有幸能够获取更多美好的开源应用。当然另一方面，软件（software）这个名词，正在慢慢的被应用（application）所取代，这是移动互联网迅猛发展的结果，也是未来的趋势。而我们看到的是在应用上，有太多的组件已经采用了开源的模式。这意味着，在未来，应用的开发将更加的便捷。对于软件提供的功能，我们无需花很大的力气去研究，而只要学会如何使用就可以了。这也是我们不应该忽视的一个趋势。</p>
+<h2 id="总结">总结</h2><p>开源软件的出现源于人们对自由与分享的追求，而现在正在慢慢的成为一种趋势。它能带来的除了越来越多无用的垃圾代码外，还有许多优秀的开源组件与软件，它们将使我们的生活更加便捷。当然，像所有的事物一样，开源运动发展肯定也会遇到相应的困难，不过，我相信有广大的开源爱好者的存在，这些困难最终都能够得到良好的解决。当然，开源并不意味着免费，而是它提供了一种开发的思想。这种思想，有利于诸多的开发者在互联网的帮助下，开发出一个美好的应用。</p>
+</p>
+    </paper-material>
+	  <paper-material>
+      
+  
+   <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="_posts/开源与闭源.md" data-title="开源与闭源" data-url="http://davidloman.net/2014/10/20/开源与闭源/"></div>
+    <!-- 多说评论框 end -->
+   <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:'david-loman'};
+      (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+      })();
+      </script>
+    <!-- 多说公共JS代码 end -->
+  
+
+
+		</paper-material>
+  
+
+  <!-- pagination -->
+  
+
+  
+<footer>
+	<p>由 <a href="https://hexo.io">hexo</a> 强力驱动 | 搭载 <a href="https://github.com/wayou/hexo-theme-polymer">polymer</a> 主题 </p>
+	<p>&copy;2015 David Loman </p>
+</footer>
+
+<script src="/js/main.js" type="text/javascript"></script>
+
+<!-- 百度统计 -->
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?ce7cd801f1e0b109bf86e2a11e97eb6a";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<!-- 谷歌统计 -->
+
+
+</div>
+
+
+
+
+
+
+        </paper-scroll-header-panel>
+
+      </paper-header-panel>
+
+    </paper-drawer-panel>
+
+  </template>
+
+</body>
+
+</html>
