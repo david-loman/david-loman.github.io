@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="generator" content="Polymer Starter Kit" />
-        <title>Archives | David Loman</title>
+        <title>David Loman</title>
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <!-- Chrome for Android theme color -->
         <meta name="theme-color" content="#303F9F">
@@ -126,8 +126,7 @@
   <!-- Application sub title -->
   <!-- index -->
   
-	  <div class="bottom title">Archives </div>
-  <!-- post -->
+	  <div class="bottom title">  </div>
   
   
 </paper-toolbar>
@@ -137,105 +136,83 @@
 
   <!-- index -->
   
-		<paper-material >
-	  		
+    <paper-material class="markdown-body">
+      <p><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Single ball is running</title>
+</head>
+<body>
+    <div style="align-text : center">
+    <canvas id="ball-canvas" height="600" style="border:1px solid #c3c3c3;"></canvas>
+</div>
+    <script type="text/javascript">
+        var width = document.body.clientWidth;
+        var height = document.body.clientHeight;
+        var radius = parseInt((Math.random() * 17))+10;
+        var x = parseInt(Math.random()* (width - 2*radius)) + radius;
+        var y = parseInt(Math.random()* (height - 2*radius)) + radius;
+        var speed_x = parseInt(Math.random()* 1) - 0.5;
+        var speed_y = parseInt(Math.random()* 1) - 0.5;
+        // 画框
+        var canvas = document.getElementById("ball-canvas");
+        drawCanvas = canvas.getContext ("2d");
+        canvas.width = width;
+        canvas.height = height;
+        // 画圆
+        var drawCircle = function(x,y,r){
+            drawCanvas.clearRect(0,0,width,height);
+            drawCanvas.beginPath();
+            drawCanvas.arc(x,y,r,0,Math.PI * 2,true);
+            drawCanvas.fillStyle="#0FF899";
+            drawCanvas.fill();
+        }
+        // 滚，滚，滚……
+        var run = function (){
+            drawCircle(x,y,radius);
+            x = x + speed_x;
+            y = y + speed_y;
+            if (x > (width - radius) || x < radius){
+                speed_x = - speed_x;
+            }
+            if (y > (height - radius) || y < radius){
+                speed_y = - speed_y;
+            }
+        }
+        // 动起来
+        setInterval("run()",1);
+    </script>
+</body>
+</html>
+</p>
+    </paper-material>
+	  <paper-material>
+      
+  
+   <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="run_a_ball.html" data-title="" data-url="http://davidloman.net/run_a_ball.html"></div>
+    <!-- 多说评论框 end -->
+   <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:'david-loman'};
+      (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+      })();
+      </script>
+    <!-- 多说公共JS代码 end -->
+  
 
-          <paper-item>
-              <div class="archive-item">
-                <a href="/2016/02/15/2015总结/">2015总结</a><span class="post-time">2月 15 2016</span>
-              </div>
-          </paper-item>
-          
-		  	
 
-          <paper-item>
-              <div class="archive-item">
-                <a href="/2015/01/24/你好，2015/">你好，2015</a><span class="post-time">1月 24 2015</span>
-              </div>
-          </paper-item>
-          
-		  	
-
-          <paper-item>
-              <div class="archive-item">
-                <a href="/2015/01/24/Ubuntu下如何安装JDK/">Ubuntu下如何安装JDK</a><span class="post-time">1月 24 2015</span>
-              </div>
-          </paper-item>
-          
-		  	
-
-          <paper-item>
-              <div class="archive-item">
-                <a href="/2014/12/13/Ubuntu下安装Android-Studio-1-0/">Ubuntu下安装Android Studio 1.0</a><span class="post-time">12月 13 2014</span>
-              </div>
-          </paper-item>
-          
-		  	
-
-          <paper-item>
-              <div class="archive-item">
-                <a href="/2014/12/11/如何成为一个程序员/">如何成为一个程序员</a><span class="post-time">12月 11 2014</span>
-              </div>
-          </paper-item>
-          
-		  	
-
-          <paper-item>
-              <div class="archive-item">
-                <a href="/2014/12/08/我的Ubuntu之旅/">我的Ubuntu之旅</a><span class="post-time">12月 8 2014</span>
-              </div>
-          </paper-item>
-          
-		  	
-
-          <paper-item>
-              <div class="archive-item">
-                <a href="/2014/11/25/Key-Value-漫游/">Key &amp; Value 漫游</a><span class="post-time">11月 25 2014</span>
-              </div>
-          </paper-item>
-          
-		  	
-
-          <paper-item>
-              <div class="archive-item">
-                <a href="/2014/11/25/搭建Ubuntu下的开发环境/">搭建Ubuntu下的开发环境</a><span class="post-time">11月 25 2014</span>
-              </div>
-          </paper-item>
-          
-		  	
-
-          <paper-item>
-              <div class="archive-item">
-                <a href="/2014/10/26/自由的代价/">自由的代价</a><span class="post-time">10月 26 2014</span>
-              </div>
-          </paper-item>
-          
-		  	
-
-          <paper-item>
-              <div class="archive-item">
-                <a href="/2014/10/20/开源与闭源/">开源与闭源</a><span class="post-time">10月 20 2014</span>
-              </div>
-          </paper-item>
-          
-		  	
 		</paper-material>
-  <!-- post -->
   
 
   <!-- pagination -->
-  
-    <paper-material class="pagination-wrapper">
-     
-
-        <paper-icon-button class="pagination-item" icon="chevron-left"  disabled="true"  onclick="javascript:window.location.href='/';"></paper-icon-button>
-
-      
-
-        <paper-icon-button class="pagination-item" icon="chevron-right"  onclick="javascript:window.location.href='/archives/page/2/';"></paper-icon-button>
-
-    
-    </paper-material>
   
 
   
