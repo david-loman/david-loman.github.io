@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="generator" content="Polymer Starter Kit" />
+        <title>移动互联网中的地图学 | David Loman</title>
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- Chrome for Android theme color -->
+        <meta name="theme-color" content="#303F9F">
+        <!-- Web Application Manifest -->
+        <link rel="manifest" href="manifest.json">
+        <!-- Tile color for Win8 -->
+        <meta name="msapplication-TileColor" content="#3372DF">
+        <!-- Add to homescreen for Chrome on Android -->
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="application-name" content="David Loman">
+        <link rel="icon" sizes="192x192" href="">
+        <!-- Add to homescreen for Safari on iOS -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="David Loman">
+        <link rel="apple-touch-icon" href="">
+        <!-- Tile icon for Win8 (144x144) -->
+        <meta name="msapplication-TileImage" content="">
+        <!-- rss -->
+        
+        <link rel="alternative" href="/atom.xml" title="David Loman" type="application/atom+xml">
+        
+        <!-- favicon -->
+        
+        <link rel="icon" href="/favicon.ico">
+        
+        <link rel="stylesheet" href="/css/github-markdown.css" type="text/css">
+        <link rel="stylesheet" href="/css/highlight.css" type="text/css">
+        <link rel="stylesheet" href="/css/main.css" type="text/css">
+        <script src="/polymer/webcomponentsjs/webcomponents-lite.js" type="text/javascript"></script>
+        <link rel="import" href="/elements/elements.html">
+    </head>
+
+
+<style is="custom-style">
+
+  paper-scroll-header-panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--paper-grey-200, #eee);
+
+    /* background for toolbar when it is at its full size */
+    --paper-scroll-header-panel-full-header: {
+      background-image: url( / );
+    };
+
+    /* background for toolbar when it is condensed */
+    --paper-scroll-header-panel-condensed-header: {
+      /*background-color: var(--paper-deep-orange-500, #ff5722);*/
+      background-color: #3F51B5;
+    };
+  }
+
+
+
+</style>
+
+<body unresolved class="fullbleed layout vertical">
+  <template is="dom-bind" id="app">
+
+    <paper-drawer-panel id="paperDrawerPanel">
+
+       <div drawer>
+	<!-- Drawer Toolbar -->
+	<paper-toolbar class="tall" id="drawerToolbar">
+	  <div class="bottom title">
+	  	<span class="paper-font-title"> David Loman </span>
+	  </div>
+	</paper-toolbar>
+
+	<!-- Drawer Content -->
+	<paper-menu class="list" attr-for-selected="data-route"  on-iron-select="onMenuSelect">
+
+	  
+	    <a href="/">
+	        <iron-icon icon="home"></iron-icon>
+	        <span>Home</span>
+	    </a>
+	  
+	    <a href="/archives">
+	        <iron-icon icon="archive"></iron-icon>
+	        <span>Archives</span>
+	    </a>
+	  
+	    <a href="/about">
+	        <iron-icon icon="info"></iron-icon>
+	        <span>About</span>
+	    </a>
+	  
+	    <a href="/atom.xml">
+	        <iron-icon icon="bookmark"></iron-icon>
+	        <span>RSS</span>
+	    </a>
+	  
+	 
+	</paper-menu>
+</div>
+
+      <paper-header-panel main mode="waterfall-tall">
+
+         <paper-scroll-header-panel condenses>
+
+          <paper-toolbar class="tall" id="mainToolbar">
+
+  <!-- index -->
+  
+  	<paper-icon-button icon="arrow-back" onclick="back(event)"></paper-icon-button>
+  
+
+  <div class="flex"></div>
+  <!-- <paper-icon-button icon="search"></paper-icon-button> -->
+
+  <!-- Application sub title -->
+  <!-- index -->
+  
+	  <div class="bottom title"> 移动互联网中的地图学 </div>
+  
+  
+</paper-toolbar>
+
+<!-- Main Content -->
+<div class="content">
+
+  <!-- index -->
+  
+    <paper-material class="markdown-body">
+      <p><p>从毕业到现在也已经半年过去了，如果算上实习，参见工作也有一年了。一年来其实忙忙碌碌可是总感觉收获不大，也许是自己太放纵自己了吧。这篇文章一直想写可是一直都没有写，算是拖延症的一个见证吧。<br><a id="more"></a></p>
+<h1 id="移动互联网与地理信息">移动互联网与地理信息</h1><p>假如没有移动互联网，地图也许只是一个存在于网上模模糊糊的工具，可是一切都要感谢移动互联网，正是它的到来让更多的人接触到了地图，或是迷惑，或是适应，不同的人自然有不同的理解。但是不可否认的是移动互联网的存在使得用户个人的地图数据正在变得越来越有价值。LBS 从被提出到现在都还算一个新鲜的名词，但是它其实有更多的内容。如果要解读地理信息，就不得不说地图！</p>
+<h2 id="地图">地图</h2><p>地图之所以出现，是因为人类需要辨别方向。从最开始的通过对自然现象的观察到后来对位置的抽象表达，到现在对空间信息的还原，无不围绕着位置信息而展开。而位置信息所要解答的问题就是我在哪，那在哪的问题。技术的进步只是促进了表达载体的多元化，但是对于载体的意义并没有改变。那么地图如何表达位置信息呢？</p>
+<h2 id="地图学">地图学</h2><p>位置信息在理性的世界中可以被抽象成为一种数学关系。地图学就是一门研究如何抽象的科学。它用数学关系来描述位置信息，从而使位置信息成为可以表述的内容。如果要系统介绍地图学无疑太复杂了，所以在这里我更愿意讲讲关于地图学的常识。</p>
+<h2 id="地球与地图">地球与地图</h2><p>地球是一个不规则的椭球，不同于你在地球仪上看到圆形，它更像是一个梨，然而这并不重要。重要的是地图的不规则使得梨都是一个经过了抽象的表述，如果要更接近现实，地图连梨型都算不上，因为它的表面坑坑洼洼，既有珠穆朗玛峰，又有东非大裂谷，有高原，有盆地，有丘陵，有平原，总之就是不规则到了极点。而我们把它抽象成梨形就经过了相对的抽象了。而为了计算又抽象称为了椭圆形。在这一椭圆的球体上建立一个标准的空间坐标系，就成为了我们平常导航的基础，这一标准的坐标系可以表达空间信息，它是 GPS 定位的基础。但是这个坐标系是建立在空间上的，也就是说它表达的是立体的关系，它至少有三个坐标分别代表长宽高。但是我们平常看到的地图是2维，从空间坐标转换成平面坐标，这里面又是一个抽象的过程。而且在转换的过程中，空间的坐标总体毫无疑问的会出现偏移，这部分内容被称为投影。投影研究的事空间上的点与平面上的点的关系。投影有很多种，不过更多时候使用的无疑是莫卡托和高斯投影。当然这依然不是重点。重点在于<strong>从空间到平面坐标系产生了偏移，如果不处理这样的偏移就会出事故，当我们使用 GPS 定位时，其返回的点是一个基于空间坐标系的点，不能直接用于平面坐标系上</strong></p>
+<h2 id="平面坐标系">平面坐标系</h2><p>把空间信息抽象成平面信息就要通过平面坐标系，在平面坐标系上，高这一属性被去除了。而由于地球是一个椭圆球体，所以部分的坐标发生了偏移。不同的投影方式偏移自然就不同，所产生的坐标系也就不一样。但是平面坐标系有一个特点，那就是直观，便于表达。你可以通过地图的比例尺知道两点的距离，如果放在空间上，这个问题会更复杂。这自然也是平面坐标系存在的价值。当然，不同的表达就造成了不同的坐标系。这会给生产带来一定的难度。这也是我们应该关注的。</p>
+<h2 id="国内坐标系">国内坐标系</h2><p>国内的坐标系大概有两种：一个是百度的坐标系，另一个是国家规定的坐标系。百度坐标系是在后者的基础上加密而成的。所以这将带来一定的问题。这两种坐标系转换的算法网上有很多，所以也就不多说。其实研发人员需要关注的坐标系有三个：一个是 GPS 数据返回后的坐标（如果你直接从 GPS获得的话）、而后是国家标准的坐标系、最后是百度坐标系。如果和其它地方有坐标的共享，请确定坐标系是否是一致的。如果不一致，定位的精度将无法保证。这也是笔者曾经遇到过的问题。</p>
+<h2 id="暂无">暂无</h2></p>
+    </paper-material>
+	  <paper-material>
+      
+  
+   <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="_posts/移动互联网中的地图学.md" data-title="移动互联网中的地图学" data-url="http://davidloman.net/2016/04/06/移动互联网中的地图学/"></div>
+    <!-- 多说评论框 end -->
+   <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:'david-loman'};
+      (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+      })();
+      </script>
+    <!-- 多说公共JS代码 end -->
+  
+
+
+		</paper-material>
+  
+
+  <!-- pagination -->
+  
+
+  
+<footer>
+	<p>由 <a href="https://hexo.io">hexo</a> 强力驱动 | 搭载 <a href="https://github.com/wayou/hexo-theme-polymer">polymer</a> 主题</p>
+	<p>Thanks to <a href="https://github.com/wayou/"> wayou </a> &copy;2015 David Loman </p>
+</footer>
+
+<script src="/js/main.js" type="text/javascript"></script>
+
+<!-- 百度统计 -->
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?ce7cd801f1e0b109bf86e2a11e97eb6a";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<!-- 谷歌统计 -->
+
+
+</div>
+
+
+
+
+
+
+        </paper-scroll-header-panel>
+
+      </paper-header-panel>
+
+    </paper-drawer-panel>
+
+  </template>
+
+</body>
+
+</html>
